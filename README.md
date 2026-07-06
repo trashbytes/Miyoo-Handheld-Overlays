@@ -204,7 +204,7 @@ In-Game
 
 ```text
 Menu + Start
-	Overlay: Subtle_NDS.png?v=3
+	Overlay: Subtle_NDS.png
 ```
 
 ### Apotris (GBA)
