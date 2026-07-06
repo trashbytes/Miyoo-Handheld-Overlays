@@ -185,6 +185,8 @@ Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_POKE
+  Core Options
+    LCD Filter: None
 Settings
 	Video
 		Scaling
@@ -192,6 +194,8 @@ Settings
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
 		Video Filter: Subtle_POKE
+In-Game
+  Adjust contrast for transitions to match the bezel
 ```
 
 ### Nintendo DS (NDS)
