@@ -185,7 +185,7 @@ Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_POKE
-  Core Options
+Core Options
     LCD Filter: None
 Settings
 	Video
