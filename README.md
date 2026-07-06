@@ -12,33 +12,36 @@ Portrait overlays include decorative bezels on the left and right sides. Landsca
 
 ### Game Boy (GB)
 
-<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/GB/Subtle_GB/Subtle_GB.png" alt="Subtle_GB preview"></td></tr></table>
+![Subtle_GB preview](RetroArch/.retroarch/overlay/GB/Subtle_GB/Subtle_GB.png)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_GB
-		Overlay Opacity: 1.00
+  Core Options
+    GB Colorization: internal / use color categories
+    Current category color for palettes: Nintendo Official
+     > Color Categories
+      Nintendo Official: GB - Pocket
+    Emulated Hardware (Restart Required): GB
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Subtle_GB
 ```
 
 ### Lynx
 
-<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/LYNX/Subtle_LYNX/Subtle_LYNX.png" alt="Subtle_LYNX preview"></td></tr></table>
+![Subtle_LYNX preview](RetroArch/.retroarch/overlay/LYNX/Subtle_LYNX/Subtle_LYNX.png)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_LYNX
-		Overlay Opacity: 1.00
 Settings
 	Video
 		Scaling
@@ -50,109 +53,98 @@ Settings
 
 ### Game Gear (GG)
 
-<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/GG/Subtle_GG/Subtle_GG.png" alt="Subtle_GG preview"></td></tr></table>
+![Subtle_GG preview](RetroArch/.retroarch/overlay/GG/Subtle_GG/Subtle_GG.png)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_GG
-		Overlay Opacity: 1.00
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
-			Keep Aspect Ratio: On
+			Keep Aspect Ratio: Off
 		Image Interpolation: Bicubic
-		Video Filter: Subtle_GG
 ```
 
 ### Supervision
 
-<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/SUPERVISION/Subtle_SUPERVISION/Subtle_SUPERVISION.png" alt="Subtle_SUPERVISION preview"></td></tr></table>
+![Subtle_SUPERVISION preview](RetroArch/.retroarch/overlay/SUPERVISION/Subtle_SUPERVISION/Subtle_SUPERVISION.png)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_SUPERVISION
-		Overlay Opacity: 1.00
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Subtle_SUPERVISION
 ```
 
 ### Mega Duck
 
-<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/MEGADUCK/Subtle_MEGADUCK/Subtle_MEGADUCK.png" alt="Subtle_MEGADUCK preview"></td></tr></table>
+![Subtle_MEGADUCK preview](RetroArch/.retroarch/overlay/MEGADUCK/Subtle_MEGADUCK/Subtle_MEGADUCK.png)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_MEGADUCK
-		Overlay Opacity: 1.00
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Subtle_MEGADUCK
 ```
 
 ### Game Boy Color (GBC)
 
-<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/GBC/Subtle_GBC/Subtle_GBC.png" alt="Subtle_GBC preview"></td></tr></table>
+![Subtle_GBC preview](RetroArch/.retroarch/overlay/GBC/Subtle_GBC/Subtle_GBC.png)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_GBC
-		Overlay Opacity: 1.00
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Subtle_GBC
 ```
 
 ### Neo Geo Pocket (NGP)
 
-<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/NGP/Subtle_NGP/Subtle_NGP.png" alt="Subtle_NGP preview"></td></tr></table>
+![Subtle_NGP preview](RetroArch/.retroarch/overlay/NGP/Subtle_NGP/Subtle_NGP.png)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_NGP
-		Overlay Opacity: 1.00
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Subtle_NGP
 ```
 
 ### WonderSwan (WS)
 
-<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/WS/Subtle_WS/Subtle_WS.png" alt="Subtle_WS preview"></td></tr></table>
+![Subtle_WS preview](RetroArch/.retroarch/overlay/WS/Subtle_WS/Subtle_WS.png)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_WS
-		Overlay Opacity: 1.00
 Settings
 	Video
 		Scaling
@@ -164,14 +156,13 @@ Settings
 
 ### Game Boy Advance (GBA)
 
-<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/GBA/Subtle_GBA/Subtle_GBA.png" alt="Subtle_GBA preview"></td></tr></table>
+![Subtle_GBA preview](RetroArch/.retroarch/overlay/GBA/Subtle_GBA/Subtle_GBA.png)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_GBA
-		Overlay Opacity: 1.00
 Settings
 	Video
 		Scaling
@@ -183,18 +174,17 @@ Settings
 
 ### Pokemon Mini (POKE)
 
-<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/POKE/Subtle_POKE/Subtle_POKE.png" alt="Subtle_POKE preview"></td></tr></table>
+![Subtle_POKE preview](RetroArch/.retroarch/overlay/POKE/Subtle_POKE/Subtle_POKE.png)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_POKE
-		Overlay Opacity: 1.00
 Settings
 	Video
 		Scaling
-			Integer Scale: Off
+			Integer Scale: On
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
 		Video Filter: Subtle_POKE
@@ -202,39 +192,31 @@ Settings
 
 ### Nintendo DS (NDS)
 
-<table><tr><td bgcolor="#808080"><img src="Emu/NDS/resources/overlay/Subtle_NDS.png" alt="Subtle_NDS preview"></td></tr></table>
+![Subtle_NDS preview](Emu/NDS/resources/overlay/Subtle_NDS.png)
 
 ```text
-Quick Menu
-	On-Screen Overlay
-		Display Overlay: On
-		Overlay Preset: Subtle_NDS
-		Overlay Opacity: 1.00
-Settings
-	Video
-		Scaling
-			Integer Scale: Off
-			Keep Aspect Ratio: On
-		Image Interpolation: Bicubic
-		Video Filter: Subtle_NDS
+Menu + Start
+	Overlay: Subtle_NDS.png
 ```
 
 ### Apotris (GBA)
 
-<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/GBA/Subtle_Apotris/Subtle_Apotris.png" alt="Subtle_Apotris preview"></td></tr></table>
+![Subtle_Apotris preview](RetroArch/.retroarch/overlay/GBA/Subtle_Apotris/Subtle_Apotris.png)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_Apotris
-		Overlay Opacity: 1.00
 Settings
 	Video
 		Scaling
-			Integer Scale: Off
+			Integer Scale: On
 			Keep Aspect Ratio: On
-		Image Interpolation: Bicubic
+		Image Interpolation: Nearest Neighbor
 		Video Filter: Subtle_Apotris
+In-Game
+  Settings
+    Graphics
+      Aspect Ratio: 4:3
 ```
-
