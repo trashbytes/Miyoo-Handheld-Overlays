@@ -12,7 +12,7 @@ Portrait overlays include decorative bezels on the left and right sides. Landsca
 
 ### Game Boy (GB)
 
-![Subtle_GB preview](RetroArch/.retroarch/overlay/GB/Subtle_GB/Subtle_GB.png)
+<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/GB/Subtle_GB/Subtle_GB.png" alt="Subtle_GB preview"></td></tr></table>
 
 ```text
 Quick Menu
@@ -31,7 +31,7 @@ Settings
 
 ### Lynx
 
-![Subtle_LYNX preview](RetroArch/.retroarch/overlay/LYNX/Subtle_LYNX/Subtle_LYNX.png)
+<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/LYNX/Subtle_LYNX/Subtle_LYNX.png" alt="Subtle_LYNX preview"></td></tr></table>
 
 ```text
 Quick Menu
@@ -50,7 +50,7 @@ Settings
 
 ### Game Gear (GG)
 
-![Subtle_GG preview](RetroArch/.retroarch/overlay/GG/Subtle_GG/Subtle_GG.png)
+<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/GG/Subtle_GG/Subtle_GG.png" alt="Subtle_GG preview"></td></tr></table>
 
 ```text
 Quick Menu
@@ -69,7 +69,7 @@ Settings
 
 ### Supervision
 
-![Subtle_SUPERVISION preview](RetroArch/.retroarch/overlay/SUPERVISION/Subtle_SUPERVISION/Subtle_SUPERVISION.png)
+<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/SUPERVISION/Subtle_SUPERVISION/Subtle_SUPERVISION.png" alt="Subtle_SUPERVISION preview"></td></tr></table>
 
 ```text
 Quick Menu
@@ -88,7 +88,7 @@ Settings
 
 ### Mega Duck
 
-![Subtle_MEGADUCK preview](RetroArch/.retroarch/overlay/MEGADUCK/Subtle_MEGADUCK/Subtle_MEGADUCK.png)
+<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/MEGADUCK/Subtle_MEGADUCK/Subtle_MEGADUCK.png" alt="Subtle_MEGADUCK preview"></td></tr></table>
 
 ```text
 Quick Menu
@@ -107,7 +107,7 @@ Settings
 
 ### Game Boy Color (GBC)
 
-![Subtle_GBC preview](RetroArch/.retroarch/overlay/GBC/Subtle_GBC/Subtle_GBC.png)
+<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/GBC/Subtle_GBC/Subtle_GBC.png" alt="Subtle_GBC preview"></td></tr></table>
 
 ```text
 Quick Menu
@@ -126,7 +126,7 @@ Settings
 
 ### Neo Geo Pocket (NGP)
 
-![Subtle_NGP preview](RetroArch/.retroarch/overlay/NGP/Subtle_NGP/Subtle_NGP.png)
+<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/NGP/Subtle_NGP/Subtle_NGP.png" alt="Subtle_NGP preview"></td></tr></table>
 
 ```text
 Quick Menu
@@ -145,7 +145,7 @@ Settings
 
 ### WonderSwan (WS)
 
-![Subtle_WS preview](RetroArch/.retroarch/overlay/WS/Subtle_WS/Subtle_WS.png)
+<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/WS/Subtle_WS/Subtle_WS.png" alt="Subtle_WS preview"></td></tr></table>
 
 ```text
 Quick Menu
@@ -164,7 +164,7 @@ Settings
 
 ### Game Boy Advance (GBA)
 
-![Subtle_GBA preview](RetroArch/.retroarch/overlay/GBA/Subtle_GBA/Subtle_GBA.png)
+<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/GBA/Subtle_GBA/Subtle_GBA.png" alt="Subtle_GBA preview"></td></tr></table>
 
 ```text
 Quick Menu
@@ -183,7 +183,7 @@ Settings
 
 ### Pokemon Mini (POKE)
 
-![Subtle_POKE preview](RetroArch/.retroarch/overlay/POKE/Subtle_POKE/Subtle_POKE.png)
+<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/POKE/Subtle_POKE/Subtle_POKE.png" alt="Subtle_POKE preview"></td></tr></table>
 
 ```text
 Quick Menu
@@ -202,7 +202,7 @@ Settings
 
 ### Nintendo DS (NDS)
 
-![Subtle_NDS preview](Emu/NDS/resources/overlay/Subtle_NDS.png)
+<table><tr><td bgcolor="#808080"><img src="Emu/NDS/resources/overlay/Subtle_NDS.png" alt="Subtle_NDS preview"></td></tr></table>
 
 ```text
 Quick Menu
@@ -221,7 +221,7 @@ Settings
 
 ### Apotris (GBA)
 
-![Subtle_Apotris preview](RetroArch/.retroarch/overlay/GBA/Subtle_Apotris/Subtle_Apotris.png)
+<table><tr><td bgcolor="#808080"><img src="RetroArch/.retroarch/overlay/GBA/Subtle_Apotris/Subtle_Apotris.png" alt="Subtle_Apotris preview"></td></tr></table>
 
 ```text
 Quick Menu
@@ -237,3 +237,4 @@ Settings
 		Image Interpolation: Bicubic
 		Video Filter: Subtle_Apotris
 ```
+
