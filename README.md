@@ -1,12 +1,16 @@
 # Subtle Handheld Overlays Collection for Onion OS on Miyoo Mini
 
-This project is not about creating photorealistic overlays for every specific device. The goal is to improve how classic handheld systems look when low pixel-density graphics are upscaled to a 640x480 display, so the image feels less flat and less purely pixel-sharp, and a bit more like playing on a real native screen. It also masks the inherent artifacts of non-integer upscaling.
+This project is not about creating photorealistic overlays that capture the quirks of each specific device.
+
+My goal is to make it look like your playing the game on a suitable screen with a matching resolution.
+
+It is not easy to scale arbitrary resolutions to fit on a 640x480 screen without artifacting and shimmering, but I think the end result is more than passable. Take a look for yourself below.
 
 Color handheld systems use a subtle pixel grid that gently shapes and simulates individual pixels. Monochrome LCD handheld systems use a different grid that simulates the gaps between LCD crystals.
 
-Everything is intentionally subtle to avoid negatively affecting image quality while still adding a nostalgic feeling, as if you were playing on a low-resolution display.
+Everything is intentionally subtle to avoid negatively affecting image quality while still adding a nostalgic feeling, as if you were playing on a low-resolution display. By using the Overlay Opacity setting you can tweak the strength to you liking, if you think this is too strong still.
 
-Portrait overlays include decorative bezels on the left and right sides. Landscape overlays shift the rendered image upward with a filter and place the system logo below.
+Portrait/square overlays include decorative bezels on the left and right sides while landscape overlays shift the rendered image upward with a filter and place the system logo below. This effectively tricks the brain, so it's easier to ignore the otherwise black bars.
 
 ## System Previews and Settings
 
