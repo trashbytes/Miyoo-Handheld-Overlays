@@ -224,3 +224,9 @@ In-Game
     Graphics
       Aspect Ratio: 4:3
 ```
+
+## Credits
+
+These overlays were inspired by the work of u/1playerinsertcoin. His Perfect_SYSTEM overlays collection is phenomenal!
+
+All pixel grids and bezels were created by hand, except for the GBA grid. The GBA grid is an adapted version of Perfect_GBA by u/1playerinsertcoin, because it is exceptionally good and, despite my best efforts, I could not create a grid that produced better results.
