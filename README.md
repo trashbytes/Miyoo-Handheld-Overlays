@@ -50,7 +50,7 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Subtle_LYNX
+		Video Filter: Subtle_LYNX (or any other way to offset up for 9px)
 ```
 
 ### Game Gear (GG)
@@ -155,7 +155,7 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Subtle_WS
+		Video Filter: Subtle_WS (or any other way to offset up for 12px)
 ```
 
 ### Game Boy Advance (GBA)
@@ -173,7 +173,7 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Subtle_GBA
+		Video Filter: Subtle_GBA (or any other way to offset up for 10px)
 ```
 
 ### Pokemon Mini (POKE)
@@ -193,7 +193,7 @@ Settings
 			Integer Scale: On
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Subtle_POKE
+		Video Filter: Subtle_POKE (or any other way to offset up for 16px)
 In-Game
 	Adjust contrast for transitions to match the bezel
 ```
@@ -228,6 +228,21 @@ In-Game
 		Graphics
 			Aspect Ratio: 4:3
 ```
+
+## Installation
+
+### Miyoo Mini / Miyoo Mini Plus (OnionOS)
+
+1. Copy the `RetroArch` and `Emu` folders from this repository to your SD card root and merge it with the existing folders.
+2. On the device, open a game, then the Quick Menu and configure RetroArch as described below each preview.
+3. Don't forget to save the override for Content Directory (or Game, in case of Apotris)
+
+### Other 640x480 Handhelds (Generic)
+
+As these are mostly simple PNG files made for RetroArch, it's probably compatible with pretty much any 640x480 retro handheld.
+See if you can find where you have to copy the overlays.
+Please reference a guide for your specific handheld and operating system / firmware. It's probably very similar.
+If the offset filters are not compatible, please look for offset / crop functions or shaders for your OS.
 
 ## Credits
 
