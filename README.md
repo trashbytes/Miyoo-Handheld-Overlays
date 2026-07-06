@@ -12,7 +12,7 @@ Portrait overlays include decorative bezels on the left and right sides. Landsca
 
 ### Game Boy (GB)
 
-![Subtle_GB preview](RetroArch/.retroarch/overlay/GB/Subtle_GB/Subtle_GB.png)
+![Subtle_GB preview](.previews/Subtle_GB_Preview.png)
 
 ```text
 Quick Menu
@@ -35,7 +35,7 @@ Settings
 
 ### Lynx
 
-![Subtle_LYNX preview](RetroArch/.retroarch/overlay/LYNX/Subtle_LYNX/Subtle_LYNX.png)
+![Subtle_LYNX preview](.previews/Subtle_LYNX_Preview.png)
 
 ```text
 Quick Menu
@@ -53,7 +53,7 @@ Settings
 
 ### Game Gear (GG)
 
-![Subtle_GG preview](RetroArch/.retroarch/overlay/GG/Subtle_GG/Subtle_GG.png)
+![Subtle_GG preview](.previews/Subtle_GG_Preview.png)
 
 ```text
 Quick Menu
@@ -70,13 +70,15 @@ Settings
 
 ### Supervision
 
-![Subtle_SUPERVISION preview](RetroArch/.retroarch/overlay/SUPERVISION/Subtle_SUPERVISION/Subtle_SUPERVISION.png)
+![Subtle_SUPERVISION preview](.previews/Subtle_SUPERVISION_Preview.png)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_SUPERVISION
+  Core Options
+    Internal Palette: Game Boy Pocket
 Settings
 	Video
 		Scaling
@@ -87,7 +89,7 @@ Settings
 
 ### Mega Duck
 
-![Subtle_MEGADUCK preview](RetroArch/.retroarch/overlay/MEGADUCK/Subtle_MEGADUCK/Subtle_MEGADUCK.png)
+![Subtle_MEGADUCK preview](.previews/Subtle_MEGADUCK_Preview.png)
 
 ```text
 Quick Menu
@@ -104,7 +106,7 @@ Settings
 
 ### Game Boy Color (GBC)
 
-![Subtle_GBC preview](RetroArch/.retroarch/overlay/GBC/Subtle_GBC/Subtle_GBC.png)
+![Subtle_GBC preview](.previews/Subtle_GBC_Preview.png)
 
 ```text
 Quick Menu
@@ -121,7 +123,7 @@ Settings
 
 ### Neo Geo Pocket (NGP)
 
-![Subtle_NGP preview](RetroArch/.retroarch/overlay/NGP/Subtle_NGP/Subtle_NGP.png)
+![Subtle_NGP preview](.previews/Subtle_NGP_Preview.png)
 
 ```text
 Quick Menu
@@ -138,7 +140,7 @@ Settings
 
 ### WonderSwan (WS)
 
-![Subtle_WS preview](RetroArch/.retroarch/overlay/WS/Subtle_WS/Subtle_WS.png)
+![Subtle_WS preview](.previews/Subtle_WS_Preview.png)
 
 ```text
 Quick Menu
@@ -156,7 +158,7 @@ Settings
 
 ### Game Boy Advance (GBA)
 
-![Subtle_GBA preview](RetroArch/.retroarch/overlay/GBA/Subtle_GBA/Subtle_GBA.png)
+![Subtle_GBA preview](.previews/Subtle_GBA_Preview.png)
 
 ```text
 Quick Menu
@@ -174,7 +176,7 @@ Settings
 
 ### Pokemon Mini (POKE)
 
-![Subtle_POKE preview](RetroArch/.retroarch/overlay/POKE/Subtle_POKE/Subtle_POKE.png)
+![Subtle_POKE preview](.previews/Subtle_POKE_Preview.png)
 
 ```text
 Quick Menu
@@ -192,7 +194,7 @@ Settings
 
 ### Nintendo DS (NDS)
 
-![Subtle_NDS preview](Emu/NDS/resources/overlay/Subtle_NDS.png)
+![Subtle_NDS preview](.previews/Subtle_NDS_Preview.png)
 
 ```text
 Menu + Start
@@ -201,7 +203,7 @@ Menu + Start
 
 ### Apotris (GBA)
 
-![Subtle_Apotris preview](RetroArch/.retroarch/overlay/GBA/Subtle_Apotris/Subtle_Apotris.png)
+![Subtle_Apotris preview](.previews/Subtle_Apotris_Preview.png)
 
 ```text
 Quick Menu
