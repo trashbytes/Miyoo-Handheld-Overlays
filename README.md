@@ -21,12 +21,12 @@ Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_GB
-  Core Options
-    GB Colorization: internal / use color categories
-    Current category color for palettes: Nintendo Official
-     > Color Categories
-      Nintendo Official: GB - Pocket
-    Emulated Hardware (Restart Required): GB
+	Core Options
+		GB Colorization: internal / use color categories
+		Current category color for palettes: Nintendo Official
+		 > Color Categories
+			Nintendo Official: GB - Pocket
+		Emulated Hardware (Restart Required): GB
 Settings
 	Video
 		Scaling
@@ -79,8 +79,8 @@ Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
 		Overlay Preset: Subtle_SUPERVISION
-  Core Options
-    Internal Palette: Game Boy Pocket
+	Core Options
+		Internal Palette: Game Boy Pocket
 Settings
 	Video
 		Scaling
@@ -186,7 +186,7 @@ Quick Menu
 		Display Overlay: On
 		Overlay Preset: Subtle_POKE
 Core Options
-    LCD Filter: None
+		LCD Filter: None
 Settings
 	Video
 		Scaling
@@ -195,7 +195,7 @@ Settings
 		Image Interpolation: Bicubic
 		Video Filter: Subtle_POKE
 In-Game
-  Adjust contrast for transitions to match the bezel
+	Adjust contrast for transitions to match the bezel
 ```
 
 ### Nintendo DS (NDS)
@@ -224,9 +224,9 @@ Settings
 		Image Interpolation: Nearest Neighbor
 		Video Filter: Subtle_Apotris
 In-Game
-  Settings
-    Graphics
-      Aspect Ratio: 4:3
+	Settings
+		Graphics
+			Aspect Ratio: 4:3
 ```
 
 ## Credits
