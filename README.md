@@ -1,14 +1,12 @@
 # Subtle Handheld Overlays Collection for Onion OS on Miyoo Mini
 
-This project is not about creating photorealistic overlays that capture the quirks of each specific device.
-
-My goal is to make it look like your playing the game on a suitable screen with a matching resolution.
+The goal of this project is to make it look like your playing old handheld games on a suitable screen with a matching resolution. It is not about creating photorealistic overlays that capture the quirks of each specific device but rather a subtle way to trick your brain into believing that you see physically larger pixels. Flat and jagged pixels tranform into a warm and inviting texture. It's not a scientific recreation, it's a nostalgic approximation without unneccessary details.
 
 It is not easy to scale arbitrary resolutions to fit on a 640x480 screen without artifacting and shimmering, but I think the end result is more than passable. Take a look for yourself below.
 
-Color handheld systems use a subtle pixel grid that gently shapes and simulates individual pixels. Monochrome LCD handheld systems use a different grid that simulates the gaps between LCD crystals.
+Color handheld systems use a subtle pixel grid that gently shapes and approximates individual pixels. Monochrome LCD handheld systems use a different grid that hit at gaps between the LCD crystals.
 
-Everything is intentionally subtle to avoid negatively affecting image quality while still adding a nostalgic feeling, as if you were playing on a low-resolution display. By using the Overlay Opacity setting you can tweak the strength to you liking, if you think this is too strong still.
+Everything is intentionally subtle to avoid negatively affecting image quality while still adding a nostalgic feeling, as if you were playing on a low-resolution display. By using the Overlay Opacity setting you can tweak the strength to you liking, if you think this is too strong still. I purposely left out lens shadows, rounded corners or anything of the sort. We're focusing entirely on the makeup of the pixels and otherwise enjoy the big and bright IPS screen of the Miyoo Mini.
 
 Portrait/square overlays include decorative bezels on the left and right sides while landscape overlays shift the rendered image upward with a filter and place the system logo below. This effectively tricks the brain, so it's easier to ignore the otherwise black bars.
 
