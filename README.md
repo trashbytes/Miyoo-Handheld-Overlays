@@ -16,7 +16,7 @@ Portrait/square overlays include decorative bezels on the left and right sides w
 
 ### Game Boy (GB)
 
-![Subtle_GB preview](.previews/Subtle_GB_Preview.png)
+![Subtle_GB preview](.previews/Subtle_GB_Preview.png?v=2)
 
 ```text
 Quick Menu
@@ -39,7 +39,7 @@ Settings
 
 ### Lynx
 
-![Subtle_LYNX preview](.previews/Subtle_LYNX_Preview.png)
+![Subtle_LYNX preview](.previews/Subtle_LYNX_Preview.png?v=2)
 
 ```text
 Quick Menu
@@ -57,7 +57,7 @@ Settings
 
 ### Game Gear (GG)
 
-![Subtle_GG preview](.previews/Subtle_GG_Preview.png)
+![Subtle_GG preview](.previews/Subtle_GG_Preview.png?v=2)
 
 ```text
 Quick Menu
@@ -74,7 +74,7 @@ Settings
 
 ### Supervision
 
-![Subtle_SUPERVISION preview](.previews/Subtle_SUPERVISION_Preview.png)
+![Subtle_SUPERVISION preview](.previews/Subtle_SUPERVISION_Preview.png?v=2)
 
 ```text
 Quick Menu
@@ -93,7 +93,7 @@ Settings
 
 ### Mega Duck
 
-![Subtle_MEGADUCK preview](.previews/Subtle_MEGADUCK_Preview.png)
+![Subtle_MEGADUCK preview](.previews/Subtle_MEGADUCK_Preview.png?v=2)
 
 ```text
 Quick Menu
@@ -110,7 +110,7 @@ Settings
 
 ### Game Boy Color (GBC)
 
-![Subtle_GBC preview](.previews/Subtle_GBC_Preview.png)
+![Subtle_GBC preview](.previews/Subtle_GBC_Preview.png?v=2)
 
 ```text
 Quick Menu
@@ -127,7 +127,7 @@ Settings
 
 ### Neo Geo Pocket (NGP)
 
-![Subtle_NGP preview](.previews/Subtle_NGP_Preview.png)
+![Subtle_NGP preview](.previews/Subtle_NGP_Preview.png?v=2)
 
 ```text
 Quick Menu
@@ -144,7 +144,7 @@ Settings
 
 ### WonderSwan (WS)
 
-![Subtle_WS preview](.previews/Subtle_WS_Preview.png)
+![Subtle_WS preview](.previews/Subtle_WS_Preview.png?v=2)
 
 ```text
 Quick Menu
@@ -162,7 +162,7 @@ Settings
 
 ### Game Boy Advance (GBA)
 
-![Subtle_GBA preview](.previews/Subtle_GBA_Preview.png)
+![Subtle_GBA preview](.previews/Subtle_GBA_Preview.png?v=2)
 
 ```text
 Quick Menu
@@ -180,7 +180,7 @@ Settings
 
 ### Pokemon Mini (POKE)
 
-![Subtle_POKE preview](.previews/Subtle_POKE_Preview.png)
+![Subtle_POKE preview](.previews/Subtle_POKE_Preview.png?v=2)
 
 ```text
 Quick Menu
@@ -198,16 +198,16 @@ Settings
 
 ### Nintendo DS (NDS)
 
-![Subtle_NDS preview](.previews/Subtle_NDS_Preview.png)
+![Subtle_NDS preview](.previews/Subtle_NDS_Preview.png?v=2)
 
 ```text
 Menu + Start
-	Overlay: Subtle_NDS.png
+	Overlay: Subtle_NDS.png?v=2
 ```
 
 ### Apotris (GBA)
 
-![Subtle_Apotris preview](.previews/Subtle_Apotris_Preview.png)
+![Subtle_Apotris preview](.previews/Subtle_Apotris_Preview.png?v=2)
 
 ```text
 Quick Menu
