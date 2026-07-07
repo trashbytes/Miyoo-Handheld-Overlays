@@ -182,7 +182,7 @@ Settings
 
 The Pokémon Mini overlay requires a unique approach. Due to the ultra-low resolution, a fully upscaled image results in gigantic pixels that quickly strain eyes and brain. Furthermore, games often place text and art right at the screen's edge. Because of generous padding around the physical display this wasn't an issue on original hardware, but scaling the image to the very edges of a modern retro handheld makes UI elements hard to parse.
 
-To solve this, I opted for integer scaling. This slightly reduces the pixel size leaves room for padding around the gameplay area. Finally, to achieve a softer, warmer feel, I added a very subtle layer of grain. Without it, the chunky pixels look a bit too flat and sterile.
+To solve this, I opted for integer scaling. This slightly reduces the pixel size and leaves room for padding around the gameplay area. Finally, to achieve a softer, warmer feel, I added a very subtle layer of film grain. Without it, the chunky pixels look a bit too flat and modern.
 
 ```text
 Quick Menu
