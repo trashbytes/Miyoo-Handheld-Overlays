@@ -14,7 +14,7 @@ Portrait/square overlays add decorative bezels on the sides while landscape over
 
 ### Game Boy (GB)
 
-![Subtle_GB preview](.previews/Subtle_GB_Preview.png?v=5)
+![Subtle_GB preview](.previews/Subtle_GB_Preview.png?v=6)
 
 ```text
 Quick Menu
@@ -37,7 +37,7 @@ Settings
 
 ### Lynx
 
-![Subtle_LYNX preview](.previews/Subtle_LYNX_Preview.png?v=5)
+![Subtle_LYNX preview](.previews/Subtle_LYNX_Preview.png?v=6)
 
 ```text
 Quick Menu
@@ -55,7 +55,7 @@ Settings
 
 ### Game Gear (GG)
 
-![Subtle_GG preview](.previews/Subtle_GG_Preview.png?v=5)
+![Subtle_GG preview](.previews/Subtle_GG_Preview.png?v=6)
 
 ```text
 Quick Menu
@@ -72,7 +72,7 @@ Settings
 
 ### Supervision
 
-![Subtle_SUPERVISION preview](.previews/Subtle_SUPERVISION_Preview.png?v=5)
+![Subtle_SUPERVISION preview](.previews/Subtle_SUPERVISION_Preview.png?v=6)
 
 ```text
 Quick Menu
@@ -91,7 +91,7 @@ Settings
 
 ### Mega Duck
 
-![Subtle_MEGADUCK preview](.previews/Subtle_MEGADUCK_Preview.png?v=5)
+![Subtle_MEGADUCK preview](.previews/Subtle_MEGADUCK_Preview.png?v=6)
 
 ```text
 Quick Menu
@@ -108,7 +108,7 @@ Settings
 
 ### Game Boy Color (GBC)
 
-![Subtle_GBC preview](.previews/Subtle_GBC_Preview.png?v=5)
+![Subtle_GBC preview](.previews/Subtle_GBC_Preview.png?v=6)
 
 ```text
 Quick Menu
@@ -125,7 +125,7 @@ Settings
 
 ### Neo Geo Pocket (NGP)
 
-![Subtle_NGP preview](.previews/Subtle_NGP_Preview.png?v=5)
+![Subtle_NGP preview](.previews/Subtle_NGP_Preview.png?v=6)
 
 ```text
 Quick Menu
@@ -142,7 +142,7 @@ Settings
 
 ### WonderSwan (WS)
 
-![Subtle_WS preview](.previews/Subtle_WS_Preview.png?v=5)
+![Subtle_WS preview](.previews/Subtle_WS_Preview.png?v=6)
 
 ```text
 Quick Menu
@@ -160,7 +160,7 @@ Settings
 
 ### Game Boy Advance (GBA)
 
-![Subtle_GBA preview](.previews/Subtle_GBA_Preview.png?v=5)
+![Subtle_GBA preview](.previews/Subtle_GBA_Preview.png?v=6)
 
 ```text
 Quick Menu
@@ -178,7 +178,11 @@ Settings
 
 ### Pokemon Mini (POKE)
 
-![Subtle_POKE preview](.previews/Subtle_POKE_Preview.png?v=5)
+![Subtle_POKE preview](.previews/Subtle_POKE_Preview.png?v=6)
+
+The Pokémon Mini overlay requires a unique approach. Due to the ultra-low resolution, a fully upscaled image results in gigantic pixels that quickly strain eyes and brain. Furthermore, games often place text and art right at the screen's edge. Because of generous padding around the physical display this wasn't an issue on original hardware, but scaling the image to the very edges of a modern retro handheld makes UI elements hard to parse.
+
+To solve this, I opted for integer scaling. This slightly reduces the pixel size leaves room for padding around the gameplay area. Finally, to achieve a softer, warmer feel, I added a very subtle layer of grain. Without it, the chunky pixels look a bit too flat and sterile.
 
 ```text
 Quick Menu
@@ -200,7 +204,7 @@ In-Game
 
 ### Nintendo DS (NDS)
 
-![Subtle_NDS preview](.previews/Subtle_NDS_Preview.png?v=5)
+![Subtle_NDS preview](.previews/Subtle_NDS_Preview.png?v=6)
 
 ```text
 Menu + Start
@@ -209,7 +213,7 @@ Menu + Start
 
 ### Apotris (GBA)
 
-![Subtle_Apotris preview](.previews/Subtle_Apotris_Preview.png?v=5)
+![Subtle_Apotris preview](.previews/Subtle_Apotris_Preview.png?v=6)
 
 ```text
 Quick Menu
