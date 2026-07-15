@@ -10,7 +10,9 @@ Everything is intentionally subtle to avoid negatively affecting image quality w
 
 Portrait/square overlays add decorative bezels on the sides while landscape overlays shift the rendered image upward with a filter and place the system logo below. This effectively tricks the brain, making the black bars less distracting.
 
-## System Previews and Settings
+## System specific overlays and settings
+
+Save overrides per content directory!
 
 ### Game Boy (GB)
 
@@ -213,7 +215,9 @@ Menu + Start
 	Overlay: Subtle_NDS.png
 ```
 
-## Game Specific Previews and Settings
+## Game specific overlays and settings
+
+Save overrides per Game!
 
 ### Apotris (GBA)
 
@@ -260,7 +264,7 @@ Settings
 
 1. Copy the `RetroArch` and `Emu` folders from this repository to your SD card root and merge it with the existing folders.
 2. On the device, open a game, then the Quick Menu and configure RetroArch as described below each preview.
-3. Don't forget to save the override for Content Directory (or Game, in case of Apotris)
+3. Don't forget to save the override for Content Directory or Game, depending on the overlay
 
 ### Other 640x480 Handhelds (Generic)
 
