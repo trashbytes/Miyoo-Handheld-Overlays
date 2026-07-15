@@ -213,6 +213,8 @@ Menu + Start
 	Overlay: Subtle_NDS.png
 ```
 
+## Game Specific Previews and Settings
+
 ### Apotris (GBA)
 
 ![Subtle_Apotris preview](.previews/Subtle_Apotris_Preview.png?v=16)
@@ -233,6 +235,23 @@ In-Game
 	Settings
 		Graphics
 			Aspect Ratio: 4:3
+```
+
+### Tetris for Chromatic (GBC)
+
+![Subtle_Apotris preview](.previews/Subtle_Tetris-for-Chromatic_Preview.png?v=16)
+
+```text
+Quick Menu
+	On-Screen Overlay
+		Display Overlay: On
+		Overlay Preset: Subtle_Tetris-for-Chromatic
+Settings
+	Video
+		Scaling
+			Integer Scale: Off
+			Keep Aspect Ratio: On
+		Image Interpolation: Bicubic
 ```
 
 ## Installation
