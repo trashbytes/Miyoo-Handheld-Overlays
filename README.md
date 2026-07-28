@@ -90,6 +90,23 @@ Settings
 		Image Interpolation: Bicubic
 ```
 
+### Game Gear (GG)
+
+![Subtle_GG preview](.previews/Subtle_GG_Preview.png?v=18)
+
+```text
+Quick Menu
+	On-Screen Overlay
+		Display Overlay: On
+		Overlay Preset: Subtle_GG
+Settings
+	Video
+		Scaling
+			Integer Scale: Off
+			Keep Aspect Ratio: Off
+		Image Interpolation: Bicubic
+```
+
 ### Neo Geo Pocket (NGP)
 
 ![Subtle_NGP preview](.previews/Subtle_NGP_Preview.png?v=18)
@@ -159,23 +176,6 @@ Settings
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
 		Video Filter: Subtle_GBA (or any other way to offset up for 10px)
-```
-
-### Game Gear (GG)
-
-![Subtle_GG preview](.previews/Subtle_GG_Preview.png?v=18)
-
-```text
-Quick Menu
-	On-Screen Overlay
-		Display Overlay: On
-		Overlay Preset: Subtle_GG
-Settings
-	Video
-		Scaling
-			Integer Scale: Off
-			Keep Aspect Ratio: Off
-		Image Interpolation: Bicubic
 ```
 
 ### Nintendo DS (NDS)
