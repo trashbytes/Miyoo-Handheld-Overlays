@@ -16,7 +16,7 @@ Save overrides per content directory!
 
 ### Mega Duck
 
-![Subtle_MEGADUCK preview](.previews/Subtle_MEGADUCK_Preview.png?v=20)
+![Subtle_MEGADUCK preview](.previews/Subtle_MEGADUCK_Preview.png?v=21)
 
 ```text
 Quick Menu
@@ -33,7 +33,7 @@ Settings
 
 ### Supervision
 
-![Subtle_SUPERVISION preview](.previews/Subtle_SUPERVISION_Preview.png?v=20)
+![Subtle_SUPERVISION preview](.previews/Subtle_SUPERVISION_Preview.png?v=21)
 
 ```text
 Quick Menu
@@ -52,7 +52,7 @@ Settings
 
 ### Game Boy (GB)
 
-![Subtle_GB preview](.previews/Subtle_GB_Preview.png?v=20)
+![Subtle_GB preview](.previews/Subtle_GB_Preview.png?v=21)
 
 ```text
 Quick Menu
@@ -75,7 +75,7 @@ Settings
 
 ### Game Boy Color (GBC)
 
-![Subtle_GBC preview](.previews/Subtle_GBC_Preview.png?v=20)
+![Subtle_GBC preview](.previews/Subtle_GBC_Preview.png?v=21)
 
 ```text
 Quick Menu
@@ -92,7 +92,7 @@ Settings
 
 ### Game Gear (GG)
 
-![Subtle_GG preview](.previews/Subtle_GG_Preview.png?v=20)
+![Subtle_GG preview](.previews/Subtle_GG_Preview.png?v=21)
 
 ```text
 Quick Menu
@@ -109,7 +109,7 @@ Settings
 
 ### Neo Geo Pocket (NGP)
 
-![Subtle_NGP preview](.previews/Subtle_NGP_Preview.png?v=20)
+![Subtle_NGP preview](.previews/Subtle_NGP_Preview.png?v=21)
 
 ```text
 Quick Menu
@@ -126,7 +126,7 @@ Settings
 
 ### Lynx
 
-![Subtle_LYNX preview](.previews/Subtle_LYNX_Preview.png?v=20)
+![Subtle_LYNX preview](.previews/Subtle_LYNX_Preview.png?v=21)
 
 ```text
 Quick Menu
@@ -144,7 +144,7 @@ Settings
 
 ### WonderSwan (WS)
 
-![Subtle_WS preview](.previews/Subtle_WS_Preview.png?v=20)
+![Subtle_WS preview](.previews/Subtle_WS_Preview.png?v=21)
 
 ```text
 Quick Menu
@@ -162,7 +162,7 @@ Settings
 
 ### Game Boy Advance (GBA)
 
-![Subtle_GBA preview](.previews/Subtle_GBA_Preview.png?v=20)
+![Subtle_GBA preview](.previews/Subtle_GBA_Preview.png?v=21)
 
 ```text
 Quick Menu
@@ -180,7 +180,7 @@ Settings
 
 ### Nintendo DS (NDS)
 
-![Subtle_NDS preview](.previews/Subtle_NDS_Preview.png?v=20)
+![Subtle_NDS preview](.previews/Subtle_NDS_Preview.png?v=21)
 
 ```text
 Menu + Start
@@ -189,7 +189,7 @@ Menu + Start
 
 ### Pokemon Mini (POKE)
 
-![Subtle_POKE preview](.previews/Subtle_POKE_Preview.png?v=20)
+![Subtle_POKE preview](.previews/Subtle_POKE_Preview.png?v=21)
 
 The Pokémon Mini overlay requires a unique approach. Due to the ultra-low resolution, a fully upscaled image results in gigantic pixels that quickly strain eyes and brain. Furthermore, games often place text and art right at the screen's edge. Because of generous padding around the physical display this wasn't an issue on original hardware, but scaling the image to the very edges of a modern retro handheld makes UI elements hard to parse.
 
@@ -221,7 +221,7 @@ Save overrides per Game!
 
 ### Apotris (GBA)
 
-![Subtle_Apotris preview](.previews/Subtle_Apotris_Preview.png?v=20)
+![Subtle_Apotris preview](.previews/Subtle_Apotris_Preview.png?v=21)
 
 ```text
 Quick Menu
@@ -243,7 +243,7 @@ In-Game
 
 ### Tetris for Chromatic (GBC)
 
-![Subtle_Apotris preview](.previews/Subtle_Tetris-for-Chromatic_Preview.png?v=20)
+![Subtle_Apotris preview](.previews/Subtle_Tetris-for-Chromatic_Preview.png?v=21)
 
 ```text
 Quick Menu
