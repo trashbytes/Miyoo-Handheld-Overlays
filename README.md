@@ -215,6 +215,49 @@ In-Game
 	Adjust contrast for transitions to match the bezel
 ```
 
+## Game specific overlays and settings
+
+Save overrides per Game!
+
+### Apotris (GBA)
+
+![Subtle_Apotris preview](.previews/Subtle_Apotris_Preview.png?v=18)
+
+```text
+Quick Menu
+	On-Screen Overlay
+		Display Overlay: On
+		Overlay Preset: Subtle_Apotris
+Settings
+	Video
+		Scaling
+			Integer Scale: On
+			Keep Aspect Ratio: On
+		Image Interpolation: Nearest Neighbor
+		Video Filter: Subtle_Apotris
+In-Game
+	Settings
+		Graphics
+			Aspect Ratio: 4:3
+```
+
+### Tetris for Chromatic (GBC)
+
+![Subtle_Apotris preview](.previews/Subtle_Tetris-for-Chromatic_Preview.png?v=18)
+
+```text
+Quick Menu
+	On-Screen Overlay
+		Display Overlay: On
+		Overlay Preset: Subtle_Tetris-for-Chromatic
+Settings
+	Video
+		Scaling
+			Integer Scale: Off
+			Keep Aspect Ratio: On
+		Image Interpolation: Bicubic
+```
+
 ## Installation
 
 ### Miyoo Mini / Miyoo Mini Plus (OnionOS)
