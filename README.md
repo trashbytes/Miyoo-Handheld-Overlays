@@ -14,61 +14,20 @@ Portrait/square overlays add decorative bezels on the sides while landscape over
 
 Save overrides per content directory!
 
-### Game Boy (GB)
+### Mega Duck
 
-![Subtle_GB preview](.previews/Subtle_GB_Preview.png?v=18)
+![Subtle_MEGADUCK preview](.previews/Subtle_MEGADUCK_Preview.png?v=18)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Subtle_GB
-	Core Options
-		GB Colorization: internal / use color categories
-		Current category color for palettes: Nintendo Official
-		 > Color Categories
-			Nintendo Official: GB - Pocket
-		Emulated Hardware (Restart Required): GB
+		Overlay Preset: Subtle_MEGADUCK
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
-		Image Interpolation: Bicubic
-```
-
-### Lynx
-
-![Subtle_LYNX preview](.previews/Subtle_LYNX_Preview.png?v=18)
-
-```text
-Quick Menu
-	On-Screen Overlay
-		Display Overlay: On
-		Overlay Preset: Subtle_LYNX
-Settings
-	Video
-		Scaling
-			Integer Scale: Off
-			Keep Aspect Ratio: On
-		Image Interpolation: Bicubic
-		Video Filter: Subtle_LYNX (or any other way to offset up for 9px)
-```
-
-### Game Gear (GG)
-
-![Subtle_GG preview](.previews/Subtle_GG_Preview.png?v=18)
-
-```text
-Quick Menu
-	On-Screen Overlay
-		Display Overlay: On
-		Overlay Preset: Subtle_GG
-Settings
-	Video
-		Scaling
-			Integer Scale: Off
-			Keep Aspect Ratio: Off
 		Image Interpolation: Bicubic
 ```
 
@@ -91,15 +50,21 @@ Settings
 		Image Interpolation: Bicubic
 ```
 
-### Mega Duck
+### Game Boy (GB)
 
-![Subtle_MEGADUCK preview](.previews/Subtle_MEGADUCK_Preview.png?v=18)
+![Subtle_GB preview](.previews/Subtle_GB_Preview.png?v=18)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Subtle_MEGADUCK
+		Overlay Preset: Subtle_GB
+	Core Options
+		GB Colorization: internal / use color categories
+		Current category color for palettes: Nintendo Official
+		 > Color Categories
+			Nintendo Official: GB - Pocket
+		Emulated Hardware (Restart Required): GB
 Settings
 	Video
 		Scaling
@@ -142,6 +107,24 @@ Settings
 		Image Interpolation: Bicubic
 ```
 
+### Lynx
+
+![Subtle_LYNX preview](.previews/Subtle_LYNX_Preview.png?v=18)
+
+```text
+Quick Menu
+	On-Screen Overlay
+		Display Overlay: On
+		Overlay Preset: Subtle_LYNX
+Settings
+	Video
+		Scaling
+			Integer Scale: Off
+			Keep Aspect Ratio: On
+		Image Interpolation: Bicubic
+		Video Filter: Subtle_LYNX (or any other way to offset up for 9px)
+```
+
 ### WonderSwan (WS)
 
 ![Subtle_WS preview](.previews/Subtle_WS_Preview.png?v=18)
@@ -178,6 +161,32 @@ Settings
 		Video Filter: Subtle_GBA (or any other way to offset up for 10px)
 ```
 
+### Game Gear (GG)
+
+![Subtle_GG preview](.previews/Subtle_GG_Preview.png?v=18)
+
+```text
+Quick Menu
+	On-Screen Overlay
+		Display Overlay: On
+		Overlay Preset: Subtle_GG
+Settings
+	Video
+		Scaling
+			Integer Scale: Off
+			Keep Aspect Ratio: Off
+		Image Interpolation: Bicubic
+```
+
+### Nintendo DS (NDS)
+
+![Subtle_NDS preview](.previews/Subtle_NDS_Preview.png?v=18)
+
+```text
+Menu + Start
+	Overlay: Subtle_NDS.png
+```
+
 ### Pokemon Mini (POKE)
 
 ![Subtle_POKE preview](.previews/Subtle_POKE_Preview.png?v=18)
@@ -204,58 +213,6 @@ Settings
 		Video Filter: Subtle_POKE (or any other way to offset up for 16px)
 In-Game
 	Adjust contrast for transitions to match the bezel
-```
-
-### Nintendo DS (NDS)
-
-![Subtle_NDS preview](.previews/Subtle_NDS_Preview.png?v=18)
-
-```text
-Menu + Start
-	Overlay: Subtle_NDS.png
-```
-
-## Game specific overlays and settings
-
-Save overrides per Game!
-
-### Apotris (GBA)
-
-![Subtle_Apotris preview](.previews/Subtle_Apotris_Preview.png?v=18)
-
-```text
-Quick Menu
-	On-Screen Overlay
-		Display Overlay: On
-		Overlay Preset: Subtle_Apotris
-Settings
-	Video
-		Scaling
-			Integer Scale: On
-			Keep Aspect Ratio: On
-		Image Interpolation: Nearest Neighbor
-		Video Filter: Subtle_Apotris
-In-Game
-	Settings
-		Graphics
-			Aspect Ratio: 4:3
-```
-
-### Tetris for Chromatic (GBC)
-
-![Subtle_Apotris preview](.previews/Subtle_Tetris-for-Chromatic_Preview.png?v=18)
-
-```text
-Quick Menu
-	On-Screen Overlay
-		Display Overlay: On
-		Overlay Preset: Subtle_Tetris-for-Chromatic
-Settings
-	Video
-		Scaling
-			Integer Scale: Off
-			Keep Aspect Ratio: On
-		Image Interpolation: Bicubic
 ```
 
 ## Installation
