@@ -8,7 +8,7 @@ Color systems use a subtle pixel grid that gently shapes and approximates indivi
 
 Everything is intentionally subtle to avoid negatively affecting image quality while still adding a nostalgic feeling, as if you were playing on a low-resolution display. Lens shadows, rounded corners, and similar embellishments are intentionally omitted to keep the focus on pixel structure and enjoy the Miyoo Mini’s bright IPS display.
 
-Portrait/square overlays add decorative bezels on the sides while landscape overlays shift the rendered image upward with a filter and place the system logo below. This effectively tricks the brain, making the black bars less distracting.
+Portrait/square overlays add decorative bezels on the sides while landscape overlays shift the rendered image upward with a filter and place the system logo below. This effectively tricks the brain, making the black bars less distracting. I've also made the bezels match the resolution of the emulated screen so that it feels like the entire screen is a uniform low resolution.
 
 ## System specific overlays and settings
 
@@ -16,7 +16,7 @@ Save overrides per content directory!
 
 ### Game Boy (GB)
 
-![Subtle_GB preview](.previews/Subtle_GB_Preview.png?v=16)
+![Subtle_GB preview](.previews/Subtle_GB_Preview.png?v=17)
 
 ```text
 Quick Menu
@@ -39,7 +39,7 @@ Settings
 
 ### Lynx
 
-![Subtle_LYNX preview](.previews/Subtle_LYNX_Preview.png?v=16)
+![Subtle_LYNX preview](.previews/Subtle_LYNX_Preview.png?v=17)
 
 ```text
 Quick Menu
@@ -57,7 +57,7 @@ Settings
 
 ### Game Gear (GG)
 
-![Subtle_GG preview](.previews/Subtle_GG_Preview.png?v=16)
+![Subtle_GG preview](.previews/Subtle_GG_Preview.png?v=17)
 
 ```text
 Quick Menu
@@ -74,7 +74,7 @@ Settings
 
 ### Supervision
 
-![Subtle_SUPERVISION preview](.previews/Subtle_SUPERVISION_Preview.png?v=16)
+![Subtle_SUPERVISION preview](.previews/Subtle_SUPERVISION_Preview.png?v=17)
 
 ```text
 Quick Menu
@@ -93,7 +93,7 @@ Settings
 
 ### Mega Duck
 
-![Subtle_MEGADUCK preview](.previews/Subtle_MEGADUCK_Preview.png?v=16)
+![Subtle_MEGADUCK preview](.previews/Subtle_MEGADUCK_Preview.png?v=17)
 
 ```text
 Quick Menu
@@ -110,7 +110,7 @@ Settings
 
 ### Game Boy Color (GBC)
 
-![Subtle_GBC preview](.previews/Subtle_GBC_Preview.png?v=16)
+![Subtle_GBC preview](.previews/Subtle_GBC_Preview.png?v=17)
 
 ```text
 Quick Menu
@@ -127,7 +127,7 @@ Settings
 
 ### Neo Geo Pocket (NGP)
 
-![Subtle_NGP preview](.previews/Subtle_NGP_Preview.png?v=16)
+![Subtle_NGP preview](.previews/Subtle_NGP_Preview.png?v=17)
 
 ```text
 Quick Menu
@@ -144,7 +144,7 @@ Settings
 
 ### WonderSwan (WS)
 
-![Subtle_WS preview](.previews/Subtle_WS_Preview.png?v=16)
+![Subtle_WS preview](.previews/Subtle_WS_Preview.png?v=17)
 
 ```text
 Quick Menu
@@ -162,7 +162,7 @@ Settings
 
 ### Game Boy Advance (GBA)
 
-![Subtle_GBA preview](.previews/Subtle_GBA_Preview.png?v=16)
+![Subtle_GBA preview](.previews/Subtle_GBA_Preview.png?v=17)
 
 ```text
 Quick Menu
@@ -180,7 +180,7 @@ Settings
 
 ### Pokemon Mini (POKE)
 
-![Subtle_POKE preview](.previews/Subtle_POKE_Preview.png?v=16)
+![Subtle_POKE preview](.previews/Subtle_POKE_Preview.png?v=17)
 
 The Pokémon Mini overlay requires a unique approach. Due to the ultra-low resolution, a fully upscaled image results in gigantic pixels that quickly strain eyes and brain. Furthermore, games often place text and art right at the screen's edge. Because of generous padding around the physical display this wasn't an issue on original hardware, but scaling the image to the very edges of a modern retro handheld makes UI elements hard to parse.
 
@@ -208,7 +208,7 @@ In-Game
 
 ### Nintendo DS (NDS)
 
-![Subtle_NDS preview](.previews/Subtle_NDS_Preview.png?v=16)
+![Subtle_NDS preview](.previews/Subtle_NDS_Preview.png?v=17)
 
 ```text
 Menu + Start
@@ -221,7 +221,7 @@ Save overrides per Game!
 
 ### Apotris (GBA)
 
-![Subtle_Apotris preview](.previews/Subtle_Apotris_Preview.png?v=16)
+![Subtle_Apotris preview](.previews/Subtle_Apotris_Preview.png?v=17)
 
 ```text
 Quick Menu
@@ -243,7 +243,7 @@ In-Game
 
 ### Tetris for Chromatic (GBC)
 
-![Subtle_Apotris preview](.previews/Subtle_Tetris-for-Chromatic_Preview.png?v=16)
+![Subtle_Apotris preview](.previews/Subtle_Tetris-for-Chromatic_Preview.png?v=17)
 
 ```text
 Quick Menu
