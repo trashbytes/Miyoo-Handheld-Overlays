@@ -54,6 +54,8 @@ Settings
 
 ![Subtle_GB preview](RetroArch/.retroarch/overlay/GB/Subtle_GB/Subtle_GB_Preview.png?v=22)
 
+Note: GB and GBC aren't centered on screen. They are shifted to the left by a few pixels. To visually balance that quirk the overlay has 3 pixels of transparency on the right hand side, which will be black on device.
+
 ```text
 Quick Menu
 	On-Screen Overlay
@@ -76,6 +78,8 @@ Settings
 ### Game Boy Color (GBC)
 
 ![Subtle_GBC preview](RetroArch/.retroarch/overlay/GBC/Subtle_GBC/Subtle_GBC_Preview.png?v=22)
+
+Note: GB and GBC aren't centered on screen. They are shifted to the left by a few pixels. To visually balance that quirk the overlay has 3 pixels of transparency on the right hand side, which will be black on device.
 
 ```text
 Quick Menu
