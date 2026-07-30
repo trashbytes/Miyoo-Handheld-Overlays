@@ -16,7 +16,7 @@ Save overrides per content directory!
 
 ### Mega Duck
 
-![Subtle_MEGADUCK preview](RetroArch/.retroarch/overlay/MEGADUCK/Subtle_MEGADUCK/Subtle_MEGADUCK_Preview.png?v=22)
+![Subtle_MEGADUCK preview](RetroArch/.retroarch/overlay/MEGADUCK/Subtle_MEGADUCK/Subtle_MEGADUCK_Preview.png?v=23)
 
 ```text
 Quick Menu
@@ -33,7 +33,7 @@ Settings
 
 ### Supervision
 
-![Subtle_SUPERVISION preview](RetroArch/.retroarch/overlay/SUPERVISION/Subtle_SUPERVISION/Subtle_SUPERVISION_Preview.png?v=22)
+![Subtle_SUPERVISION preview](RetroArch/.retroarch/overlay/SUPERVISION/Subtle_SUPERVISION/Subtle_SUPERVISION_Preview.png?v=23)
 
 ```text
 Quick Menu
@@ -52,7 +52,7 @@ Settings
 
 ### Game Boy (GB)
 
-![Subtle_GB preview](RetroArch/.retroarch/overlay/GB/Subtle_GB/Subtle_GB_Preview.png?v=22)
+![Subtle_GB preview](RetroArch/.retroarch/overlay/GB/Subtle_GB/Subtle_GB_Preview.png?v=23)
 
 Note: GB and GBC aren't centered on screen. They are shifted to the left by a few pixels. To visually balance that quirk the overlay has 3 pixels of transparency on the right hand side, which will be black on device.
 
@@ -77,7 +77,7 @@ Settings
 
 ### Game Boy Color (GBC)
 
-![Subtle_GBC preview](RetroArch/.retroarch/overlay/GBC/Subtle_GBC/Subtle_GBC_Preview.png?v=22)
+![Subtle_GBC preview](RetroArch/.retroarch/overlay/GBC/Subtle_GBC/Subtle_GBC_Preview.png?v=23)
 
 Note: GB and GBC aren't centered on screen. They are shifted to the left by a few pixels. To visually balance that quirk the overlay has 3 pixels of transparency on the right hand side, which will be black on device.
 
@@ -96,7 +96,7 @@ Settings
 
 ### Game Gear (GG)
 
-![Subtle_GG preview](RetroArch/.retroarch/overlay/GG/Subtle_GG/Subtle_GG_Preview.png?v=22)
+![Subtle_GG preview](RetroArch/.retroarch/overlay/GG/Subtle_GG/Subtle_GG_Preview.png?v=23)
 
 ```text
 Quick Menu
@@ -113,7 +113,7 @@ Settings
 
 ### Neo Geo Pocket (NGP)
 
-![Subtle_NGP preview](RetroArch/.retroarch/overlay/NGP/Subtle_NGP/Subtle_NGP_Preview.png?v=22)
+![Subtle_NGP preview](RetroArch/.retroarch/overlay/NGP/Subtle_NGP/Subtle_NGP_Preview.png?v=23)
 
 ```text
 Quick Menu
@@ -130,7 +130,7 @@ Settings
 
 ### Lynx
 
-![Subtle_LYNX preview](RetroArch/.retroarch/overlay/LYNX/Subtle_LYNX/Subtle_LYNX_Preview.png?v=22)
+![Subtle_LYNX preview](RetroArch/.retroarch/overlay/LYNX/Subtle_LYNX/Subtle_LYNX_Preview.png?v=23)
 
 ```text
 Quick Menu
@@ -148,7 +148,7 @@ Settings
 
 ### WonderSwan (WS)
 
-![Subtle_WS preview](RetroArch/.retroarch/overlay/WS/Subtle_WS/Subtle_WS_Preview.png?v=22)
+![Subtle_WS preview](RetroArch/.retroarch/overlay/WS/Subtle_WS/Subtle_WS_Preview.png?v=23)
 
 ```text
 Quick Menu
@@ -166,7 +166,7 @@ Settings
 
 ### Game Boy Advance (GBA)
 
-![Subtle_GBA preview](RetroArch/.retroarch/overlay/GBA/Subtle_GBA/Subtle_GBA_Preview.png?v=22)
+![Subtle_GBA preview](RetroArch/.retroarch/overlay/GBA/Subtle_GBA/Subtle_GBA_Preview.png?v=23)
 
 ```text
 Quick Menu
@@ -184,7 +184,7 @@ Settings
 
 ### Nintendo DS (NDS)
 
-![Subtle_NDS preview](Emu/NDS/resources/overlay/Subtle_NDS_Preview.png?v=22)
+![Subtle_NDS preview](Emu/NDS/resources/overlay/Subtle_NDS_Preview.png?v=23)
 
 ```text
 Menu + Start
@@ -193,7 +193,7 @@ Menu + Start
 
 ### Pokemon Mini (POKE)
 
-![Subtle_POKE preview](RetroArch/.retroarch/overlay/POKE/Subtle_POKE/Subtle_POKE_Preview.png?v=22)
+![Subtle_POKE preview](RetroArch/.retroarch/overlay/POKE/Subtle_POKE/Subtle_POKE_Preview.png?v=23)
 
 The Pokémon Mini overlay requires a unique approach. Due to the ultra-low resolution, a fully upscaled image results in gigantic pixels that quickly strain eyes and brain. Furthermore, games often place text and art right at the screen's edge. Because of generous padding around the physical display this wasn't an issue on original hardware, but scaling the image to the very edges of a modern retro handheld makes UI elements hard to parse.
 
@@ -225,7 +225,7 @@ Save overrides per Game!
 
 ### Apotris (GBA)
 
-![Subtle_Apotris preview](RetroArch/.retroarch/overlay/GBA/Subtle_Apotris/Subtle_Apotris_Preview.png?v=22)
+![Subtle_Apotris preview](RetroArch/.retroarch/overlay/GBA/Subtle_Apotris/Subtle_Apotris_Preview.png?v=23)
 
 ```text
 Quick Menu
@@ -247,7 +247,7 @@ In-Game
 
 ### Tetris for Chromatic (GBC)
 
-![Subtle_Tetris-for-Chromatic preview](RetroArch/.retroarch/overlay/GBC/Subtle_Tetris-for-Chromatic/Subtle_Tetris-for-Chromatic_Preview.png?v=22)
+![Subtle_Tetris-for-Chromatic preview](RetroArch/.retroarch/overlay/GBC/Subtle_Tetris-for-Chromatic/Subtle_Tetris-for-Chromatic_Preview.png?v=23)
 
 ```text
 Quick Menu
