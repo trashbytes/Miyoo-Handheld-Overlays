@@ -191,7 +191,7 @@ Menu + Start
 
 ### Pokemon Mini (POKE)
 
-![Immersive_POKE preview](RetroArch/.retroarch/overlay/POKE/Immersive_POKE-Preview.png?v=25)
+![Immersive_POKE-Generic preview](RetroArch/.retroarch/overlay/POKE/Immersive_POKE-Generic-Preview.png?v=25)
 
 The Pokémon Mini overlay requires a unique approach. Due to the ultra-low resolution, a fully upscaled image results in gigantic pixels that quickly strain eyes and brain. Furthermore, games often place text and art right at the screen's edge. Because of generous padding around the physical display this wasn't an issue on original hardware, but scaling the image to the very edges of a modern retro handheld makes UI elements hard to parse.
 
