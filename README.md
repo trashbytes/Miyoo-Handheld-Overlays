@@ -14,7 +14,7 @@ Save overrides per content directory!
 
 ### Mega Duck
 
-![Immersive_MEGADUCK-Generic preview](RetroArch/.retroarch/overlay/MEGADUCK/Immersive_MEGADUCK-Generic_Preview.png?v=25)
+![Immersive_MEGADUCK-Generic preview](RetroArch/.retroarch/overlay/MEGADUCK/Immersive_MEGADUCK-Generic-Preview.png?v=25)
 
 ```text
 Quick Menu
@@ -31,7 +31,7 @@ Settings
 
 ### Supervision
 
-![Immersive_SUPERVISION-Generic preview](RetroArch/.retroarch/overlay/SUPERVISION/Immersive_SUPERVISION-Generic_Preview.png?v=25)
+![Immersive_SUPERVISION-Generic preview](RetroArch/.retroarch/overlay/SUPERVISION/Immersive_SUPERVISION-Generic-Preview.png?v=25)
 
 ```text
 Quick Menu
@@ -50,7 +50,7 @@ Settings
 
 ### Game Boy (GB)
 
-![Immersive_GB-Generic preview](RetroArch/.retroarch/overlay/GB/Immersive_GB-Generic_Preview.png?v=25)
+![Immersive_GB-Generic preview](RetroArch/.retroarch/overlay/GB/Immersive_GB-Generic-Preview.png?v=25)
 
 Note: GB and GBC aren't centered on screen. They are shifted to the left by a few pixels. To visually balance that quirk the overlay has 3 pixels of transparency on the right hand side, which will be black on device.
 
@@ -75,7 +75,7 @@ Settings
 
 ### Game Boy Color (GBC)
 
-![Immersive_GBC-Generic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Generic_Preview.png?v=25)
+![Immersive_GBC-Generic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Generic-Preview.png?v=25)
 
 Note: GB and GBC aren't centered on screen. They are shifted to the left by a few pixels. To visually balance that quirk the overlay has 3 pixels of transparency on the right hand side, which will be black on device.
 
@@ -94,7 +94,7 @@ Settings
 
 ### Game Gear (GG)
 
-![Immersive_GG-Generic preview](RetroArch/.retroarch/overlay/GG/Immersive_GG-Generic_Preview.png?v=25)
+![Immersive_GG-Generic preview](RetroArch/.retroarch/overlay/GG/Immersive_GG-Generic-Preview.png?v=25)
 
 ```text
 Quick Menu
@@ -111,7 +111,7 @@ Settings
 
 ### Neo Geo Pocket (NGP)
 
-![Immersive_NGP-Generic preview](RetroArch/.retroarch/overlay/NGP/Immersive_NGP-Generic_Preview.png?v=25)
+![Immersive_NGP-Generic preview](RetroArch/.retroarch/overlay/NGP/Immersive_NGP-Generic-Preview.png?v=25)
 
 ```text
 Quick Menu
@@ -128,7 +128,7 @@ Settings
 
 ### Lynx
 
-![Immersive_LYNX-Generic preview](RetroArch/.retroarch/overlay/LYNX/Immersive_LYNX-Generic_Preview.png?v=25)
+![Immersive_LYNX-Generic preview](RetroArch/.retroarch/overlay/LYNX/Immersive_LYNX-Generic-Preview.png?v=25)
 
 ```text
 Quick Menu
@@ -146,7 +146,7 @@ Settings
 
 ### WonderSwan (WS)
 
-![Immersive_WS-Generic preview](RetroArch/.retroarch/overlay/WS/Immersive_WS-Generic_Preview.png?v=25)
+![Immersive_WS-Generic preview](RetroArch/.retroarch/overlay/WS/Immersive_WS-Generic-Preview.png?v=25)
 
 ```text
 Quick Menu
@@ -164,7 +164,7 @@ Settings
 
 ### Game Boy Advance (GBA)
 
-![Immersive_GBA-Generic preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Generic_Preview.png?v=25)
+![Immersive_GBA-Generic preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Generic-Preview.png?v=25)
 
 ```text
 Quick Menu
@@ -191,7 +191,7 @@ Menu + Start
 
 ### Pokemon Mini (POKE)
 
-![Immersive_POKE preview](RetroArch/.retroarch/overlay/POKE/Immersive_POKE_Preview.png?v=25)
+![Immersive_POKE preview](RetroArch/.retroarch/overlay/POKE/Immersive_POKE-Preview.png?v=25)
 
 The Pokémon Mini overlay requires a unique approach. Due to the ultra-low resolution, a fully upscaled image results in gigantic pixels that quickly strain eyes and brain. Furthermore, games often place text and art right at the screen's edge. Because of generous padding around the physical display this wasn't an issue on original hardware, but scaling the image to the very edges of a modern retro handheld makes UI elements hard to parse.
 
@@ -223,7 +223,7 @@ Save overrides per Game!
 
 ### Apotris (GBA)
 
-![Immersive_GBA-Apotris preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Apotris_Preview.png?v=25)
+![Immersive_GBA-Apotris preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Apotris-Preview.png?v=25)
 
 ```text
 Quick Menu
