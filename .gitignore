@@ -3,3 +3,5 @@
 assets
 backup
 update.bat
+source
+*.mjs
