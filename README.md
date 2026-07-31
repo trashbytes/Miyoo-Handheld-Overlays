@@ -243,6 +243,23 @@ In-Game
 			Aspect Ratio: 4:3
 ```
 
+### Tetris for Chromatic (GBC)
+
+![Immersive_GBC-Tetris-for-Chromatic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Tetris-for-Chromatic-Preview.png?v=25)
+
+```text
+Quick Menu
+	On-Screen Overlay
+		Display Overlay: On
+		Overlay Preset: Immersive_GBC-Tetris-for-Chromatic
+Settings
+	Video
+		Scaling
+			Integer Scale: Off
+			Keep Aspect Ratio: On
+		Image Interpolation: Bicubic
+```
+
 ## Installation
 
 ### Miyoo Mini / Miyoo Mini Plus (OnionOS)
