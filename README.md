@@ -203,7 +203,7 @@ Because of the much higher resolutions of the other LCD handhelds, namely GameBo
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_POKE
+		Overlay Preset: Immersive_POKE-Generic
 Core Options
 		LCD Filter: None
 Settings
