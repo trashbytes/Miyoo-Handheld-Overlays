@@ -14,7 +14,7 @@ Save overrides per content directory!
 
 ### Mega Duck
 
-![Immersive_MEGADUCK-Generic preview](RetroArch/.retroarch/overlay/MEGADUCK/Immersive_MEGADUCK-Generic-Preview.png?v=25)
+![Immersive_MEGADUCK-Generic preview](RetroArch/.retroarch/overlay/MEGADUCK/Immersive_MEGADUCK-Generic-Preview.png?v=26)
 
 ```text
 Quick Menu
@@ -27,11 +27,12 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
+		Video Filter: Immersive_MEGADUCK
 ```
 
 ### Supervision
 
-![Immersive_SUPERVISION-Generic preview](RetroArch/.retroarch/overlay/SUPERVISION/Immersive_SUPERVISION-Generic-Preview.png?v=25)
+![Immersive_SUPERVISION-Generic preview](RetroArch/.retroarch/overlay/SUPERVISION/Immersive_SUPERVISION-Generic-Preview.png?v=26)
 
 ```text
 Quick Menu
@@ -46,11 +47,12 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
+		Video Filter: Immersive_SUPERVISION
 ```
 
 ### Game Boy (GB)
 
-![Immersive_GB-Generic preview](RetroArch/.retroarch/overlay/GB/Immersive_GB-Generic-Preview.png?v=25)
+![Immersive_GB-Generic preview](RetroArch/.retroarch/overlay/GB/Immersive_GB-Generic-Preview.png?v=26)
 
 Note: GB and GBC aren't centered on screen. They are shifted to the left by a few pixels. To visually balance that quirk the overlay has 3 pixels of transparency on the right hand side, which will be black on device.
 
@@ -71,11 +73,12 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
+		Video Filter: Immersive_GB
 ```
 
 ### Game Boy Color (GBC)
 
-![Immersive_GBC-Generic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Generic-Preview.png?v=25)
+![Immersive_GBC-Generic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Generic-Preview.png?v=26)
 
 Note: GB and GBC aren't centered on screen. They are shifted to the left by a few pixels. To visually balance that quirk the overlay has 3 pixels of transparency on the right hand side, which will be black on device.
 
@@ -90,11 +93,12 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
+		Video Filter: Immersive_GBC
 ```
 
 ### Game Gear (GG)
 
-![Immersive_GG-Generic preview](RetroArch/.retroarch/overlay/GG/Immersive_GG-Generic-Preview.png?v=25)
+![Immersive_GG-Generic preview](RetroArch/.retroarch/overlay/GG/Immersive_GG-Generic-Preview.png?v=26)
 
 ```text
 Quick Menu
@@ -111,7 +115,7 @@ Settings
 
 ### Neo Geo Pocket (NGP)
 
-![Immersive_NGP-Generic preview](RetroArch/.retroarch/overlay/NGP/Immersive_NGP-Generic-Preview.png?v=25)
+![Immersive_NGP-Generic preview](RetroArch/.retroarch/overlay/NGP/Immersive_NGP-Generic-Preview.png?v=26)
 
 ```text
 Quick Menu
@@ -124,11 +128,12 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
+		Video Filter: Immersive_NGP
 ```
 
 ### Lynx
 
-![Immersive_LYNX-Generic preview](RetroArch/.retroarch/overlay/LYNX/Immersive_LYNX-Generic-Preview.png?v=25)
+![Immersive_LYNX-Generic preview](RetroArch/.retroarch/overlay/LYNX/Immersive_LYNX-Generic-Preview.png?v=26)
 
 ```text
 Quick Menu
@@ -141,12 +146,12 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_LYNX (or any other way to offset up for 9px)
+		Video Filter: Immersive_LYNX
 ```
 
 ### WonderSwan (WS)
 
-![Immersive_WS-Generic preview](RetroArch/.retroarch/overlay/WS/Immersive_WS-Generic-Preview.png?v=25)
+![Immersive_WS-Generic preview](RetroArch/.retroarch/overlay/WS/Immersive_WS-Generic-Preview.png?v=26)
 
 ```text
 Quick Menu
@@ -159,12 +164,12 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_WS (or any other way to offset up for 12px)
+		Video Filter: Immersive_WS
 ```
 
 ### Game Boy Advance (GBA)
 
-![Immersive_GBA-Generic preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Generic-Preview.png?v=25)
+![Immersive_GBA-Generic preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Generic-Preview.png?v=26)
 
 ```text
 Quick Menu
@@ -177,12 +182,12 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_GBA (or any other way to offset up for 10px)
+		Video Filter: Immersive_GBA
 ```
 
 ### Nintendo DS (NDS)
 
-![Immersive_NDS-Generic preview](Emu/NDS/resources/overlay/Immersive_NDS-Generic-Preview.png?v=25)
+![Immersive_NDS-Generic preview](Emu/NDS/resources/overlay/Immersive_NDS-Generic-Preview.png?v=26)
 
 ```text
 Menu + Start
@@ -191,7 +196,7 @@ Menu + Start
 
 ### Pokemon Mini (POKE)
 
-![Immersive_POKE-Generic preview](RetroArch/.retroarch/overlay/POKE/Immersive_POKE-Generic-Preview.png?v=25)
+![Immersive_POKE-Generic preview](RetroArch/.retroarch/overlay/POKE/Immersive_POKE-Generic-Preview.png?v=26)
 
 The Pokémon Mini overlay requires a unique approach. Due to the ultra-low resolution, a fully upscaled image results in gigantic pixels that quickly strain eyes and brain. Furthermore, games often place text and art right at the screen's edge. Because of generous padding around the physical display this wasn't an issue on original hardware, but scaling the image to the very edges of a modern retro handheld makes UI elements hard to parse.
 
@@ -212,7 +217,7 @@ Settings
 			Integer Scale: On
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_POKE (or any other way to offset up for 16px)
+		Video Filter: Immersive_POKE
 In-Game
 	Adjust contrast for transitions to match the bezel
 ```
@@ -223,7 +228,7 @@ Save overrides per Game!
 
 ### Apotris (GBA)
 
-![Immersive_GBA-Apotris preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Apotris-Preview.png?v=25)
+![Immersive_GBA-Apotris preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Apotris-Preview.png?v=26)
 
 ```text
 Quick Menu
@@ -245,7 +250,7 @@ In-Game
 
 ### Tetris for Chromatic (GBC)
 
-![Immersive_GBC-Tetris-for-Chromatic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Tetris-for-Chromatic-Preview.png?v=25)
+![Immersive_GBC-Tetris-for-Chromatic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Tetris-for-Chromatic-Preview.png?v=26)
 
 ```text
 Quick Menu
@@ -258,6 +263,7 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
+		Video Filter: Immersive_GBC
 ```
 
 ## Installation
