@@ -8,7 +8,7 @@ Color systems use a subtle pixel grid that gently shapes and approximates indivi
 
 The grid is intentionally subtle to avoid negatively affecting image quality while still adding a nostalgic feeling, as if you were playing on a low-resolution display. Lens shadows, rounded corners, and similar embellishments are intentionally omitted to keep the focus on pixel structure and enjoy the Miyoo Mini’s bright IPS display.
 
-**Important note: In order to properly center squareish systems and to enable subpixel level precision at the edges, I've developed a new edge extension filter, which also replaces the previous offset filter for GBA, LYNX and WS. Instead of simply shifting the image upwards or side to side, this filter duplicates the rows and columns at the edges for seamless overlays even at pixel fractions. So for every system except for Game Gear, which is already 4:3, you have to apply both the overlay as well as the accompanying filter!**
+**Important note: In order to properly center squareish systems and to enable subpixel level precision at the edges, I've developed a new edge extension filter, which also replaces the previous offset filter for GBA, LYNX and WS. Instead of simply shifting the image up and down or side to side, this filter duplicates the rows and columns at the edges for seamless overlays even at pixel fractions. So for every system except for Game Gear, which is already 4:3, you have to apply both the overlay as well as the accompanying filter!**
 
 ## System specific overlays and settings
 
