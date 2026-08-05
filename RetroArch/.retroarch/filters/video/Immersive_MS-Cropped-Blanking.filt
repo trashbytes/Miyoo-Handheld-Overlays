@@ -7,4 +7,4 @@ crop_and_extend_crop_bottom_px = 0
 crop_and_extend_extend_left_px = 0
 crop_and_extend_extend_right_px = 0
 crop_and_extend_extend_top_px = 0
-crop_and_extend_extend_bottom_px = 32
+crop_and_extend_extend_bottom_px = 20
