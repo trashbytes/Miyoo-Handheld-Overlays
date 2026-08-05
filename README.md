@@ -270,6 +270,8 @@ Settings
 
 ## Other systems
 
+As these are no handheld systems with fixed pixel displays, there is no pixel grid.
+
 Save overrides per Content Directory!
 
 ### Sega Master System (MS)
