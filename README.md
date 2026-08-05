@@ -268,6 +268,30 @@ Settings
 		Video Filter: Immersive_GBC
 ```
 
+## Other systems
+
+Save overrides per Content Directory!
+
+### Sega Master System (MS)
+
+![Immersive_MS-Cropped-Blanking preview](RetroArch/.retroarch/overlay/MS/Immersive_MS-Cropped-Blanking-Preview.png?v=29)
+
+```text
+Quick Menu
+	On-Screen Overlay
+		Display Overlay: On
+		Overlay Preset: Immersive_MS-Cropped-Blanking
+Settings
+	Video
+		Scaling
+			Integer Scale: off
+			Keep Aspect Ratio: off
+		Image Interpolation: Bicubic
+		Video Filter: Immersive_MS-Cropped-Blanking
+```
+
+This is the "Cropped-Blanking" variant, which I suggest you use as the default. Only a few games ever meaningfully use the blanking area and for those which do you can set the "Generic" variant as an override per game.
+
 ## Installation
 
 ### Miyoo Mini / Miyoo Mini Plus (OnionOS)
