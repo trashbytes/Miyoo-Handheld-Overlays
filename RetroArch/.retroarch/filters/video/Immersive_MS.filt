@@ -1,0 +1,6 @@
+filter = edge_extend
+
+edge_extend_left_px = 0
+edge_extend_right_px = 0
+edge_extend_top_px = 0
+edge_extend_bottom_px = 32
