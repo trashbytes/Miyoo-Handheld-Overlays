@@ -56,8 +56,6 @@ Settings
 
 ![Immersive_GB-Generic preview](RetroArch/.retroarch/overlay/GB/Immersive_GB-Generic-Preview.png?v=30)
 
-Note: GB and GBC aren't centered on screen. They are shifted to the left by a few pixels. To visually balance that quirk the overlay has 3 pixels of transparency on the right hand side, which will be black on device.
-
 ```text
 Quick Menu
 	On-Screen Overlay
@@ -81,8 +79,6 @@ Settings
 ### Game Boy Color (GBC)
 
 ![Immersive_GBC-Generic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Generic-Preview.png?v=30)
-
-Note: GB and GBC aren't centered on screen. They are shifted to the left by a few pixels. To visually balance that quirk the overlay has 3 pixels of transparency on the right hand side, which will be black on device.
 
 ```text
 Quick Menu
