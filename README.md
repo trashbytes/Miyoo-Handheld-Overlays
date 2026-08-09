@@ -12,17 +12,19 @@ The grid is intentionally subtle to avoid negatively affecting image quality whi
 
 ## Supported devices
 
-| Device          | Resolution | Supported |
-| --------------- | ---------- | --------- |
-| Miyoo Mini Plus | 640x480    | ✔️ Yes    |
-| Miyoo Mini v1   | 640x480    | ✔️ Yes    |
-| Miyoo Mini v2   | 640x480    | ✔️ Yes    |
-| Miyoo Mini v3   | 640x480    | ✔️ Yes    |
-| Miyoo Flip      | 640x480    | ✔️ Yes    |
-| Miyoo Flip v2   | 640x480    | ✔️ Yes    |
-| Miyoo A30       | 640x480    | ✔️ Yes    |
-| Miyoo Mini Flip | 750x560    | ❌ No     |
-| Miyoo Mini v4   | 750x560    | ❌ No     |
+The table below summarizes which Miyoo models are compatible with these overlays.
+
+| Device              | Resolution  | Supported |
+| ------------------- | ----------- | --------- |
+| **Miyoo Mini Plus** | **640x480** | ✔️ Yes    |
+| **Miyoo Mini v1**   | **640x480** | ✔️ Yes    |
+| **Miyoo Mini v2**   | **640x480** | ✔️ Yes    |
+| **Miyoo Mini v3**   | **640x480** | ✔️ Yes    |
+| **Miyoo Flip**      | **640x480** | ✔️ Yes    |
+| **Miyoo Flip v2**   | **640x480** | ✔️ Yes    |
+| **Miyoo A30**       | **640x480** | ✔️ Yes    |
+| Miyoo Mini          | 750x560     | ❌ No     |
+| Miyoo Mini v4       | 750x560     | ❌ No     |
 
 ## System specific overlays and settings
 
