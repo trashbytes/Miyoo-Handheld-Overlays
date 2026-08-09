@@ -1,8 +1,16 @@
 # Immersive Handheld Overlays Collection for Onion OS on Miyoo Minis with 640x480 screens
 
-The **Miyoo Mini Plus**, the **Miyoo Mini v1**, **Miyoo Mini v2** and **Miyoo Mini v3**, the **Miyoo Flip** and **Miyoo Flip v2** as well as the **Miyoo A30** all have 640x480 screens.
-
-The **Miyoo Mini Flip** and the **Miyoo Mini v4** do NOT have 640x480 screens.
+| Device          | Resolution | Supported |
+| --------------- | ---------- | --------- |
+| Miyoo Mini Plus | 640x480    | Yes       |
+| Miyoo Mini v1   | 640x480    | Yes       |
+| Miyoo Mini v2   | 640x480    | Yes       |
+| Miyoo Mini v3   | 640x480    | Yes       |
+| Miyoo Flip      | 640x480    | Yes       |
+| Miyoo Flip v2   | 640x480    | Yes       |
+| Miyoo A30       | 640x480    | Yes       |
+| Miyoo Mini Flip | 750x560    | No        |
+| Miyoo Mini v4   | 750x560    | No        |
 
 The goal of this project is to make it look like classic handheld games are played on a screen with a matching resolution and aspect ratio. The bezels are not just decoration, they match the resolution, look and feel of the emulated system, as if they were rendered by that system. So it's not about creating a photorealistic replica but rather a subtle way to trick your brain into believing that you see physically larger pixels on a screen that perfectly matches the aspect ratio of the emulated system. Flat and jagged pixels get tranformed into a warm and inviting texture. It's not a scientific recreation, it's a nostalgic approximation with an immersive enhancement.
 
