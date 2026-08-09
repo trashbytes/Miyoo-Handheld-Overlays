@@ -1,17 +1,5 @@
 # Immersive Handheld Overlays Collection for Onion OS on Miyoo Minis with 640x480 screens
 
-| Device          | Resolution | Supported |
-| --------------- | ---------- | --------- |
-| Miyoo Mini Plus | 640x480    | Yes       |
-| Miyoo Mini v1   | 640x480    | Yes       |
-| Miyoo Mini v2   | 640x480    | Yes       |
-| Miyoo Mini v3   | 640x480    | Yes       |
-| Miyoo Flip      | 640x480    | Yes       |
-| Miyoo Flip v2   | 640x480    | Yes       |
-| Miyoo A30       | 640x480    | Yes       |
-| Miyoo Mini Flip | 750x560    | No        |
-| Miyoo Mini v4   | 750x560    | No        |
-
 The goal of this project is to make it look like classic handheld games are played on a screen with a matching resolution and aspect ratio. The bezels are not just decoration, they match the resolution, look and feel of the emulated system, as if they were rendered by that system. So it's not about creating a photorealistic replica but rather a subtle way to trick your brain into believing that you see physically larger pixels on a screen that perfectly matches the aspect ratio of the emulated system. Flat and jagged pixels get tranformed into a warm and inviting texture. It's not a scientific recreation, it's a nostalgic approximation with an immersive enhancement.
 
 Scaling many different resolutions and aspect ratios to fit a 640x480 screen without artifacting and shimmering is not easy, but I think in the end I got there.
@@ -21,6 +9,20 @@ Color systems use a subtle pixel grid that gently shapes and approximates indivi
 The grid is intentionally subtle to avoid negatively affecting image quality while still adding a nostalgic feeling, as if you were playing on a low-resolution display. Lens shadows, rounded corners, and similar embellishments are intentionally omitted to keep the focus on pixel structure and enjoy the Miyoo Mini’s bright IPS display.
 
 **Important note: In order to properly center squareish systems and to enable subpixel level precision at the edges, I've developed a new edge extension filter, which also replaces the previous offset filter for GBA, LYNX and WS. Instead of simply shifting the image up and down or side to side, this filter duplicates the rows and columns at the edges for seamless overlays even at pixel fractions. So for every system except for Game Gear, which is already 4:3, you have to apply both the overlay as well as the accompanying filter!**
+
+## Supported devices
+
+| Device          | Resolution | Supported |
+| --------------- | ---------- | --------- |
+| Miyoo Mini Plus | 640x480    | ✅ Yes    |
+| Miyoo Mini v1   | 640x480    | ✅ Yes    |
+| Miyoo Mini v2   | 640x480    | ✅ Yes    |
+| Miyoo Mini v3   | 640x480    | ✅ Yes    |
+| Miyoo Flip      | 640x480    | ✅ Yes    |
+| Miyoo Flip v2   | 640x480    | ✅ Yes    |
+| Miyoo A30       | 640x480    | ✅ Yes    |
+| Miyoo Mini Flip | 750x560    | ❎ No     |
+| Miyoo Mini v4   | 750x560    | ❎ No     |
 
 ## System specific overlays and settings
 
