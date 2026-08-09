@@ -30,7 +30,7 @@ The overlays and filters are specifically designed for Miyoo devices with 640x48
 
 Save overrides per content directory!
 
-### Mega Duck
+### Mega Duck (MEGADUCK)
 
 ![Immersive_MEGADUCK-Generic preview](RetroArch/.retroarch/overlay/MEGADUCK/Immersive_MEGADUCK-Generic-Preview.png?v=31)
 
@@ -48,7 +48,7 @@ Settings
 		Video Filter: Immersive_MEGADUCK
 ```
 
-### Supervision
+### Supervision (SUPERVISION)
 
 ![Immersive_SUPERVISION-Generic preview](RetroArch/.retroarch/overlay/SUPERVISION/Immersive_SUPERVISION-Generic-Preview.png?v=31)
 
@@ -145,7 +145,7 @@ Settings
 		Video Filter: Immersive_NGP
 ```
 
-### Lynx
+### Lynx (LYNX)
 
 ![Immersive_LYNX-Generic preview](RetroArch/.retroarch/overlay/LYNX/Immersive_LYNX-Generic-Preview.png?v=31)
 
