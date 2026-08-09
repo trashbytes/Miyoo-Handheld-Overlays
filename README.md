@@ -282,7 +282,9 @@ Settings
 
 ## Other systems
 
-As these are no handheld systems with fixed pixel displays, there is no pixel grid. Also most retro gaming systems designed for CRTs don't have a fixed resolution and were designed with a 4:3 aspect ratio in mind anyway, so it's easiest to just make them fullscreen and ignore overscans. The Sega Master System is letterboxed by design and thus needs either black bars or a bezel on a 4:3 screen, so I made one.
+As these are no handheld systems with fixed pixel displays, there is no pixel grid. Also most retro gaming systems designed for CRTs don't have a fixed resolution and were designed with a 4:3 aspect ratio in mind anyway, so it's easiest to just make them fullscreen and be done with it. On most systems overlays just can't work anyway due to the fact that a PNG file is static, but the resolution of the system may be not and while filters would technically work, any but the simplest ones are very resource intensive and most also don't look great due to scaling artifacts.
+
+With that in mind there is at least one system where it does make sense. The Sega Master System is letterboxed by design and thus needs either black bars or a bezel on a 4:3 screen.
 
 Save overrides per Content Directory!
 
