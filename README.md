@@ -1,4 +1,8 @@
-# Immersive Handheld Overlays Collection for Onion OS on Miyoo Mini
+# Immersive Handheld Overlays Collection for Onion OS on Miyoo Minis with 640x480 screens
+
+The **Miyoo Mini Plus**, the **Miyoo Mini v1**, **Miyoo Mini v2** and **Miyoo Mini v3**, the **Miyoo Flip** and **Miyoo Flip v2** as well as the **Miyoo A30** all have 640x480 screens.
+
+The **Miyoo Mini Flip** and the **Miyoo Mini v4** do NOT have 640x480 screens.
 
 The goal of this project is to make it look like classic handheld games are played on a screen with a matching resolution and aspect ratio. The bezels are not just decoration, they match the resolution, look and feel of the emulated system, as if they were rendered by that system. So it's not about creating a photorealistic replica but rather a subtle way to trick your brain into believing that you see physically larger pixels on a screen that perfectly matches the aspect ratio of the emulated system. Flat and jagged pixels get tranformed into a warm and inviting texture. It's not a scientific recreation, it's a nostalgic approximation with an immersive enhancement.
 
@@ -292,18 +296,16 @@ This is the "Cropped-Blanking" variant, which I suggest you use as the default. 
 
 ## Installation
 
-### Miyoo Mini / Miyoo Mini Plus (OnionOS)
+### Miyoo handhelds running Onion OS
 
 1. Copy the `RetroArch` and `Emu` folders from this repository to your SD card root and merge it with the existing folders.
 2. On the device, open a game, then the Quick Menu and configure RetroArch as described below each preview.
-3. Don't forget to save the override for Content Directory or Game, depending on the overlay
+3. If neccessary configure the game as described below the preview.
+4. Don't forget to save the override for Content Directory or Game, depending on the overlay
 
 ### Other 640x480 Handhelds (Generic)
 
-As these are mostly simple PNG files made for RetroArch, it's probably compatible with pretty much any 640x480 retro handheld.
-See if you can find where you have to copy the overlays.
-Please reference a guide for your specific handheld and operating system / firmware. It's probably very similar.
-If the offset filters are not compatible, please look for offset / crop functions or shaders for your OS.
+These PNGs can technically be used with pretty much any 640x480 retro handheld, but they are specifically designed for how Retro Arch on Onion OS renders and scales the game. They are also designed to work with a custom filter which shifts, crops and extends the output so that it's placed in a very specific place on screen. If you have a different device or OS they will most likely be misaligned. If the offset filters are not compatible, please look for offset / crop functions or shaders for your OS and/or try to align them in a graphics software yourself by using a screenshot of the game taken on your device.
 
 ## Credits
 
