@@ -20,10 +20,10 @@ The overlays and filters are specifically designed for Miyoo devices with 640x48
 | **Miyoo Mini v1**   | **640x480** | **Onion OS**     | **✔️ Yes** |
 | **Miyoo Mini v2**   | **640x480** | **Onion OS**     | **✔️ Yes** |
 | **Miyoo Mini v3**   | **640x480** | **Onion OS**     | **✔️ Yes** |
-| **Miyoo Flip**      | **640x480** | **Onion OS**     | **✔️ Yes** |
-| **Miyoo Flip v2**   | **640x480** | **Onion OS**     | **✔️ Yes** |
-| **Miyoo A30**       | **640x480** | **Onion OS**     | **✔️ Yes** |
-| Miyoo Mini          | 750x560     | any              | ❌ No      |
+| Miyoo Flip          | 640x480     | any              | ⭕ Maybe   |
+| Miyoo Flip v2       | 640x480     | any              | ⭕ Maybe   |
+| Miyoo A30           | 640x480     | any              | ⭕ Maybe   |
+| Miyoo Mini Flip     | 750x560     | any              | ❌ No      |
 | Miyoo Mini v4       | 750x560     | any              | ❌ No      |
 
 ## System specific overlays and settings
