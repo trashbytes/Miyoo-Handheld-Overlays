@@ -266,7 +266,7 @@ Settings
 
 ## Other systems
 
-As these are no handheld systems with fixed pixel displays, there is no pixel grid.
+As these are no handheld systems with fixed pixel displays, there is no pixel grid. Also most retro gaming systems designed for CRTs don't have a fixed resolution and were designed with a 4:3 aspect ratio in mind anyway, so it's easiest to just make them fullscreen and ignore overscans. The Sega Master System is letterboxed by design and thus needs either black bars or a bezel on a 4:3 screen, so I made one.
 
 Save overrides per Content Directory!
 
@@ -288,7 +288,7 @@ Settings
 		Video Filter: Immersive_MS-Cropped-Blanking
 ```
 
-This is the "Cropped-Blanking" variant, which I suggest you use as the default. Only a few games ever meaningfully use the blanking area and for those which do you can set the "Generic" variant as an override per game.
+This is the "Cropped-Blanking" variant, which I suggest you use as the default. Only a few games ever meaningfully use the blanking area and for those which do you can set the "Generic" variant as an override per game. Keep in mind that later versions of the system offer two additional resolutions at 224p and 240p, but they are rarely used. These overlays are made for the standard 192p system and games.
 
 ## Installation
 
