@@ -12,19 +12,19 @@ The grid is intentionally subtle to avoid negatively affecting image quality whi
 
 ## Supported devices
 
-The table below summarizes which Miyoo models are compatible with these overlays.
+The overlays are specifically designed for Miyoo devices with 640x480 screens running the latest Onion OS. As is, they do not work with other devices and screens, but may work with other OSes.
 
-| Device              | Resolution  | Supported  |
-| ------------------- | ----------- | ---------- |
-| **Miyoo Mini Plus** | **640x480** | **✔️ Yes** |
-| **Miyoo Mini v1**   | **640x480** | **✔️ Yes** |
-| **Miyoo Mini v2**   | **640x480** | **✔️ Yes** |
-| **Miyoo Mini v3**   | **640x480** | **✔️ Yes** |
-| **Miyoo Flip**      | **640x480** | **✔️ Yes** |
-| **Miyoo Flip v2**   | **640x480** | **✔️ Yes** |
-| **Miyoo A30**       | **640x480** | **✔️ Yes** |
-| Miyoo Mini          | 750x560     | ❌ No      |
-| Miyoo Mini v4       | 750x560     | ❌ No      |
+| Device              | Resolution  | Operating System | Supported  |
+| ------------------- | ----------- | ---------------- | ---------- |
+| **Miyoo Mini Plus** | **640x480** | **Onion OS**     | **✔️ Yes** |
+| **Miyoo Mini v1**   | **640x480** | **Onion OS**     | **✔️ Yes** |
+| **Miyoo Mini v2**   | **640x480** | **Onion OS**     | **✔️ Yes** |
+| **Miyoo Mini v3**   | **640x480** | **Onion OS**     | **✔️ Yes** |
+| **Miyoo Flip**      | **640x480** | **Onion OS**     | **✔️ Yes** |
+| **Miyoo Flip v2**   | **640x480** | **Onion OS**     | **✔️ Yes** |
+| **Miyoo A30**       | **640x480** | **Onion OS**     | **✔️ Yes** |
+| Miyoo Mini          | 750x560     | any              | ❌ No      |
+| Miyoo Mini v4       | 750x560     | any              | ❌ No      |
 
 ## System specific overlays and settings
 
