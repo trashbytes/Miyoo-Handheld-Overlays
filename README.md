@@ -12,7 +12,7 @@ The grid is intentionally subtle to avoid negatively affecting image quality whi
 
 ## Supported devices
 
-The overlays are specifically designed for Miyoo devices with 640x480 screens running the latest Onion OS. As is, they do not work with other devices and screens, but may work with other OSes.
+The overlays and filters are specifically designed for Miyoo devices with 640x480 screens running the latest Onion OS. As is, they do not work with other devices and screens, but may work (in part) with other OSes.
 
 | Device              | Resolution  | Operating System | Supported  |
 | ------------------- | ----------- | ---------------- | ---------- |
