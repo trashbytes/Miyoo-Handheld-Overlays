@@ -325,23 +325,26 @@ I've included the generator script as well as all of my assets at their native r
 
 ### Required files and folders
 
-```text
-
 Minimal setup for any given system.
-This will just use the overlay-<width>x<height>.png file to create an overlay for the target resolution.
+This will just use the `overlay-<width>x<height>.png` file to create an overlay for the target resolution.
 You can create a high-res grid for the system and it will be scaled to the target resolution, though a handcrafted grid manually optimized for the target resolution may give you better results.
 
+```
 SYSTEM/                                      # system folder, this is where the generated overlays will be stored
 ├── assets/                                  # assets folder, this is where json config and graphic assets will be stored
 │   ├── compose-<width>x<height>.json        # default compose config for this system at this target resolution
 │   ├── overlay-<width>x<height>.png         # default overlay image (like a grid for example) for this system at this target resolution
 │   ├── screenshot-<width>x<height>.png      # default clean screenshot image for this system at this target resolution
+```
 
 The real fun begins when you add your own Variant folder and make use of individual assets to create your bezels.
 Assets should be created at their native resolution and cover either the full width, the full height or both dimensions of the native system resolution. So for example a left bezel for GB or GBC would simply be 16x144px. Prescaling, downscaling, squishing, stretching and pixel perfect placement will then be done by the generator script. This means iterating is super fast, as you don't have to worry about doing all this manually and for every resolution or aspect ratio after each change, simply delete the .cfg file or -Overlay.png an run the script again.
 You only have to setup the compose.json once and can create as many bezels at their native resolution as you want and they will be scaled and placed perfectly every time.
 A "Generic" variant directory will be created, should it not exist.
 
+```
+SYSTEM/
+├── assets/
 │   └── <Variant-Name>/                      # optional variant folder
 │       ├── compose-<width>x<height>.json    # optional override compose config for this variant
 │       ├── overlay-<width>x<height>.png     # optional override overlay image (like a grid for example) for this variant
