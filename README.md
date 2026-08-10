@@ -325,7 +325,7 @@ I've included the generator script as well as all of my assets at their native r
 
 ### Required files and folders
 
-Minimal setup for any given system.
+**Minimal setup for any given system:**
 
 This will just use the `overlay-<width>x<height>.png` file to create an overlay for the target resolution.
 You can create a high-res grid for the system and it will be scaled to the target resolution, though a handcrafted grid manually optimized for the target resolution may give you better results.
@@ -338,9 +338,20 @@ SYSTEM/                                      # system folder, this is where the 
 │   ├── screenshot-<width>x<height>.png      # default clean screenshot image for this system at this target resolution
 ```
 
-The real fun begins when you add your own Variant folder and make use of individual assets to create your bezels.
+**Using custom assets:**
 
-Assets should be created at their native resolution and cover either the full width, the full height or both dimensions of the native system resolution. So for example a left bezel for GB or GBC would simply be 16x144px. Prescaling, downscaling, squishing, stretching and pixel perfect placement will then be done by the generator script. This means iterating is super fast, as you don't have to worry about doing all this manually and for every resolution or aspect ratio after each change, simply delete the .cfg file or -Overlay.png an run the script again.
+The real fun begins when you make use of individual assets to create your bezels.
+
+Assets should be created at their native resolution and cover either the full width or the full height (or both) of the native system resolution.
+
+So let's say we want to create a bezel for GB or GBC, which have a resolution of 160x144px.
+First we have to extend the resolution to proper 4:3. As 4:3 is wider than the GB, the vertical resolution stays the same and to get the horizontal resolution it will be multiplied by 4:3, which results in 192px. 192-160=32 and 32/2=16 so we have to create two bezels, both 16x144px.
+
+It's not always this simple. The NGP for example has 42.667 pixels missing horizontally to get to a proper 4:3 aspect ratio, which can neither be divided cleanly by two nor extended by using whole pixels. In this case I rounded up to 43 pixels. The left bezel is 21x152px and the right one 22x152px. Because Onion OS always scales up to full pixels, the resulting image fully covers the 640x480 screen and the bezels will perfectly slot into place as well.
+
+On widescreen systems like the GBA I like to shift the image up and then cover the bottom with a single bezel. Because 4:3 is taller than the GBA, the horizontal resolution stays the same and to get the vertical resolution we multiply it by 3:4, which results in 180px. 180-160=20, so we have to create one bezel at 160x20px.
+
+Prescaling, downscaling, squishing, stretching and pixel perfect placement will then be done by the generator script. This means iterating is super fast, as you don't have to worry about doing all this manually and for every resolution or aspect ratio after each change, simply delete the .cfg file or -Overlay.png an run the script again.
 
 You only have to setup the compose.json once and can create as many bezels at their native resolution as you want and they will be scaled and placed perfectly every time.
 
