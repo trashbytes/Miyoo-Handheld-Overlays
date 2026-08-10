@@ -32,31 +32,31 @@ Save overrides per content directory!
 
 ### Mega Duck (MEGADUCK)
 
-![Immersive_MEGADUCK-Generic preview](RetroArch/.retroarch/overlay/MEGADUCK/Immersive_MEGADUCK-Generic-640x480-Preview.png?v=34)
+![Immersive_MEGADUCK-Generic preview](RetroArch/.retroarch/overlay/MEGADUCK/Immersive_MEGADUCK-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_MEGADUCK-Generic-640x480
+		Overlay Preset: Immersive_MEGADUCK-Generic
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_MEGADUCK-4by3
+		Video Filter: Immersive_MEGADUCK
 ```
 
 ### Supervision (SUPERVISION)
 
-![Immersive_SUPERVISION-Generic preview](RetroArch/.retroarch/overlay/SUPERVISION/Immersive_SUPERVISION-Generic-640x480-Preview.png?v=34)
+![Immersive_SUPERVISION-Generic preview](RetroArch/.retroarch/overlay/SUPERVISION/Immersive_SUPERVISION-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_SUPERVISION-Generic-640x480
+		Overlay Preset: Immersive_SUPERVISION-Generic
 	Core Options
 		Internal Palette: Game Boy Pocket
 Settings
@@ -65,18 +65,18 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_SUPERVISION-4by3
+		Video Filter: Immersive_SUPERVISION
 ```
 
 ### Game Boy (GB)
 
-![Immersive_GB-Generic preview](RetroArch/.retroarch/overlay/GB/Immersive_GB-Generic-640x480-Preview.png?v=34)
+![Immersive_GB-Generic preview](RetroArch/.retroarch/overlay/GB/Immersive_GB-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_GB-Generic-640x480
+		Overlay Preset: Immersive_GB-Generic
 	Core Options
 		GB Colorization: internal / use color categories
 		Current category color for palettes: Nintendo Official
@@ -89,36 +89,36 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_GB-4by3
+		Video Filter: Immersive_GB
 ```
 
 ### Game Boy Color (GBC)
 
-![Immersive_GBC-Generic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Generic-640x480-Preview.png?v=34)
+![Immersive_GBC-Generic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_GBC-Generic-640x480
+		Overlay Preset: Immersive_GBC-Generic
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_GBC-4by3
+		Video Filter: Immersive_GBC
 ```
 
 ### Game Gear (GG)
 
-![Immersive_GG-Generic preview](RetroArch/.retroarch/overlay/GG/Immersive_GG-Generic-640x480-Preview.png?v=34)
+![Immersive_GG-Generic preview](RetroArch/.retroarch/overlay/GG/Immersive_GG-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_GG-Generic-640x480
+		Overlay Preset: Immersive_GG-Generic
 Settings
 	Video
 		Scaling
@@ -129,94 +129,94 @@ Settings
 
 ### Neo Geo Pocket (NGP)
 
-![Immersive_NGP-Generic preview](RetroArch/.retroarch/overlay/NGP/Immersive_NGP-Generic-640x480-Preview.png?v=34)
+![Immersive_NGP-Generic preview](RetroArch/.retroarch/overlay/NGP/Immersive_NGP-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_NGP-Generic-640x480
+		Overlay Preset: Immersive_NGP-Generic
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_NGP-4by3
+		Video Filter: Immersive_NGP
 ```
 
 ### Lynx (LYNX)
 
-![Immersive_LYNX-Generic preview](RetroArch/.retroarch/overlay/LYNX/Immersive_LYNX-Generic-640x480-Preview.png?v=34)
+![Immersive_LYNX-Generic preview](RetroArch/.retroarch/overlay/LYNX/Immersive_LYNX-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_LYNX-Generic-640x480
+		Overlay Preset: Immersive_LYNX-Generic
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_LYNX-4by3
+		Video Filter: Immersive_LYNX
 ```
 
 ### WonderSwan (WS)
 
-![Immersive_WS-Generic preview](RetroArch/.retroarch/overlay/WS/Immersive_WS-Generic-640x480-Preview.png?v=34)
+![Immersive_WS-Generic preview](RetroArch/.retroarch/overlay/WS/Immersive_WS-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_WS-Generic-640x480
+		Overlay Preset: Immersive_WS-Generic
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_WS-4by3
+		Video Filter: Immersive_WS
 ```
 
 ### Game Boy Advance (GBA)
 
-![Immersive_GBA-Generic preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Generic-640x480-Preview.png?v=34)
+![Immersive_GBA-Generic preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_GBA-Generic-640x480
+		Overlay Preset: Immersive_GBA-Generic
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_GBA-4by3
+		Video Filter: Immersive_GBA
 ```
 
 ### Nintendo DS (NDS)
 
-![Immersive_NDS-Generic preview](Emu/NDS/resources/overlay/Immersive_NDS-Generic-640x480-Preview.png?v=34)
+![Immersive_NDS-Generic preview](Emu/NDS/resources/overlay/Immersive_NDS-Generic-Preview.png?v=34)
 
 ```text
 Menu + Start
-	Overlay: Immersive_NDS-Generic-640x480.png
+	Overlay: Immersive_NDS-Generic.png
 ```
 
 ### Pokemon Mini (POKE)
 
-![Immersive_POKE-Generic preview](RetroArch/.retroarch/overlay/POKE/Immersive_POKE-Generic-640x480-Preview.png?v=34)
+![Immersive_POKE-Generic preview](RetroArch/.retroarch/overlay/POKE/Immersive_POKE-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_POKE-Generic-640x480
+		Overlay Preset: Immersive_POKE-Generic
 Core Options
     Video Scale (Restart): 1x
 Settings
@@ -225,7 +225,7 @@ Settings
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Nearest Neighbor
-		Video Filter: Immersive_POKE-4by3
+		Video Filter: Immersive_POKE
 In-Game
 	Adjust contrast for transitions to match the bezel
 ```
@@ -236,20 +236,20 @@ Save overrides per Game!
 
 ### Apotris (GBA)
 
-![Immersive_GBA-Apotris preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Apotris-640x480-Preview.png?v=34)
+![Immersive_GBA-Apotris preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Apotris-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_GBA-Apotris-640x480
+		Overlay Preset: Immersive_GBA-Apotris
 Settings
 	Video
 		Scaling
 			Integer Scale: On
 			Keep Aspect Ratio: On
 		Image Interpolation: Nearest Neighbor
-		Video Filter: Immersive_GBA-Apotris-4by3
+		Video Filter: Immersive_GBA-Apotris
 In-Game
 	Settings
 		Graphics
@@ -258,20 +258,20 @@ In-Game
 
 ### Tetris for Chromatic (GBC)
 
-![Immersive_GBC-Tetris-for-Chromatic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Tetris-for-Chromatic-640x480-Preview.png?v=34)
+![Immersive_GBC-Tetris-for-Chromatic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Tetris-for-Chromatic-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_GBC-Tetris-for-Chromatic-640x480
+		Overlay Preset: Immersive_GBC-Tetris-for-Chromatic
 Settings
 	Video
 		Scaling
 			Integer Scale: Off
 			Keep Aspect Ratio: On
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_GBC-4by3
+		Video Filter: Immersive_GBC
 ```
 
 ## Other systems
@@ -284,20 +284,20 @@ Save overrides per Content Directory!
 
 ### Sega Master System (MS)
 
-![Immersive_MS-Cropped-Blanking preview](RetroArch/.retroarch/overlay/MS/Immersive_MS-Cropped-Blanking-640x480-Preview.png?v=34)
+![Immersive_MS-Cropped-Blanking preview](RetroArch/.retroarch/overlay/MS/Immersive_MS-Cropped-Blanking-Preview.png?v=34)
 
 ```text
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_MS-Cropped-Blanking-640x480
+		Overlay Preset: Immersive_MS-Cropped-Blanking
 Settings
 	Video
 		Scaling
 			Integer Scale: off
 			Keep Aspect Ratio: off
 		Image Interpolation: Bicubic
-		Video Filter: Immersive_MS-Cropped-Blanking-4by3
+		Video Filter: Immersive_MS-Cropped-Blanking
 ```
 
 This is the "Cropped-Blanking" variant, which I suggest you use as the default. Only a few games ever meaningfully use the blanking area and for those which do you can set the "Generic" variant as an override per game. Keep in mind that later versions of the system offer two additional resolutions at 224p and 240p, but they are rarely used. These overlays are made for the standard 192p system and games.
@@ -323,7 +323,7 @@ I've included the generator script as well as the assets. You can edit the asset
 
 ### Required files and folders
 
-To generate an overlay, you need both a directory with the Variant name (e.g. `Generic`) as well as a `compose-<width>x<height>.json` next to it with the resolution in the file name (e.g. `compose-640x480.json`). You can also add `grid-<width>x<height>.json` as well as `screenshot-<width>x<height>.png` to overlay a grid and to generate a preview as well, which is useful for alignment. You can override these per `Variant` by placing additional ones inside the `Variant` folder.
+To generate an overlay, you need both a directory with the Variant name (e.g. `Generic`) as well as a `compose-<width>x<height>.json` next to it with the resolution in the file name (e.g. `compose-750x560.json`). You can also add `grid-<width>x<height>.json` as well as `screenshot-<width>x<height>.png` to overlay a grid and to generate a preview as well, which is useful for alignment. You can override these per `Variant` by placing additional ones inside the `Variant` folder.
 
 - `SYSTEM/assets/compose-<width>x<height>.json` **required**, will trigger creation for overlays for each `Variant` with a resolution of `<width>x<height>`
 - `SYSTEM/assets/grid-<width>x<height>.json` optional, grid to use for `<width>x<height>` overlay, falls back to `grid.png`
