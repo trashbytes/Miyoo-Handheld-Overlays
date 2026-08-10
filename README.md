@@ -333,7 +333,7 @@ To generate an overlay, you need both a directory with the Variant name (e.g. `G
 - `SYSTEM/assets/Variant/grid-<width>x<height>.json` optional, overrides default grid
 - `SYSTEM/assets/Variant/screenshot-<width>x<height>.json` optional, overrides default screenshot
 
-### compose-<width>x<height>.json
+### compose-&lt;width&gt;x&lt;height&gt;.json
 
 This must be a valid JSON file, even if you don't have a bezel or grid. Add a key for every asset you want to place, you can use the following paramters for each one:
 
