@@ -327,22 +327,29 @@ I've included the generator script as well as all of my assets at their native r
 
 ```text
 
-Minimal setup for any given system
+Minimal setup for any given system.
+This will just use the overlay-<width>x<height>.png file to create your overlay for the target resolution.
+You can create a high-res grid for the system and it will be scaled to the target resolution, though a handcrafted grid manually optimized for the target resolution may give you a better result.
 
-SYSTEM/                                    # system folder, this is where the generated overlays will be stored
-├── assets/                                # assets folder, this is where json config and graphic assets will be stored
-│   ├── compose-<width>x<height>.json      # default compose config for this system
-│   ├── overlay.png                        # default overlay (grid) image for this system, will be scaled if resolution is different
-│   ├── screenshot.png                     # default clean screenshot image for this system, will be scaled if resolution is different
+SYSTEM/                                      # system folder, this is where the generated overlays will be stored
+├── assets/                                  # assets folder, this is where json config and graphic assets will be stored
+│   ├── compose-<width>x<height>.json        # default compose config for this system at this target resolution
+│   ├── overlay-<width>x<height>.png         # default overlay image (like a grid for example) for this system at this target resolution
+│   ├── screenshot-<width>x<height>.png      # default clean screenshot image for this system at this target resolution
 
-Optional variants, e.g. for specific games or different styles
+The real fun begins when you add your own Variant folders and make use of individual assets to create your bezels
+Assets should be created at their native resolution and cover either the full width, the full height or both, so a left bezel for GB or GBC is 16x144px. This means iterating is super fast, as you don't have to worry about manually scaling or exporting for specific resolutions or aspect ratios.
+You only have to setup the compose.json once and can create as many bezels at their native resolution as you want and they will be scaled and placed perfectly every time.
+A "Generic" variant directory will be created, should it not exist.
 
-│   └── <Variant-Name>/                    # optional variant folder
-│       ├── compose-<width>x<height>.json  # optional override compose config for this variant
-│       ├── overlay.png                    # optional override overlay (grid) image for this variant, will be scaled if resolution is different
-│       ├── screenshot.png                 # optional override clean screenshot image for this variant, will be scaled if resolution is different
-│       └── <Asset-Name>.png               # optional graphic assets like bezels and logos, will be scaled and placed according to compose json
+│   └── <Variant-Name>/                      # optional variant folder
+│       ├── compose-<width>x<height>.json    # optional override compose config for this variant
+│       ├── overlay-<width>x<height>.png     # optional override overlay image (like a grid for example) for this variant
+│       ├── screenshot-<width>x<height>.png  # optional override clean screenshot image for this variant
+│       └── <Asset-Name>.png                 # optional graphic assets like bezels and logos, see explanation for compose.json below
 ```
+
+You can also omit the resolution on both `overlay.png` as well as `screenshot.png` and it will be used for all resolutions if no override file is present.
 
 ### compose-&lt;width&gt;x&lt;height&gt;.json
 
