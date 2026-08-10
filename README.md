@@ -342,14 +342,14 @@ SYSTEM/                                      # system folder, this is where the 
 
 The real fun begins when you make use of individual assets to create your bezels.
 
-Assets should be created at their native resolution and cover either the full width or the full height (or both) of the native system resolution.
+Assets should be created at their native resolution and cover either the full width or the full height of the native system resolution, depending on its native pixel aspect ratio.
 
-So let's say we want to create a bezel for GB or GBC, which have a resolution of 160x144px.
-First we have to extend the resolution to proper 4:3. As 4:3 is wider than the GB, the vertical resolution stays the same and to get the horizontal resolution it will be multiplied by 4:3, which results in 192px. 192-160=32 and 32/2=16 so we have to create two bezels, both 16x144px.
+So let's say we want to create a bezel for the GB, which has a resolution of 160x144px.
+First we have to extend the resolution to proper 4:3. As 4:3 is wider than the GB, the vertical resolution stays the same and to get the horizontal resolution we multiply the vertical one by 4:3, which is 192px (144\*4/3=192). To get the missing amount we subtract the actual horizontal resolution from it, which results in 32px (192-160=32) and because we want to have an equal amount on each side we divide by 2, which results in 16px (32/2=16) so we have to create two bezels, both 16x144px.
 
 It's not always this simple. The NGP for example has 42.667 pixels missing horizontally to get to a proper 4:3 aspect ratio, which can neither be divided cleanly by two nor extended by using whole pixels. In this case I rounded up to 43 pixels. The left bezel is 21x152px and the right one 22x152px. Because Onion OS always scales up to full pixels, the resulting image fully covers the 640x480 screen and the bezels will perfectly slot into place as well.
 
-On widescreen systems like the GBA I like to shift the image up and then cover the bottom with a single bezel. Because 4:3 is taller than the GBA, the horizontal resolution stays the same and to get the vertical resolution we multiply it by 3:4, which results in 180px. 180-160=20, so we have to create one bezel at 160x20px.
+On widescreen systems like the GBA I like to shift the image up and then cover the bottom with a single bezel. Because 4:3 is taller than the GBA, the horizontal resolution stays the same and to get the vertical resolution we multiply the horizontal one by 3:4, which results in 180px (240\*3/4). To get the missing amount we subtract the actual vertial resolution from it, which results in 20px (180-160=20), so we have to create one bezel at 160x20px.
 
 Prescaling, downscaling, squishing, stretching and pixel perfect placement will then be done by the generator script. This means iterating is super fast, as you don't have to worry about doing all this manually and for every resolution or aspect ratio after each change, simply delete the .cfg file or -Overlay.png an run the script again.
 
