@@ -328,28 +328,17 @@ I've included the generator script as well as all of my assets at their native r
 A minimal setup looks like this:
 
 ```text
-SYSTEM/
-├── assets/
-│   ├── compose-<width>x<height>.json         # required compose config
-│   ├── grid.png                              # optional fallback grid
-│   ├── screenshot.png                        # optional fallback screenshot
-│   └── <Variant-Name>/                       # required variant folder
-│       ├── compose-<width>x<height>.json     # optional variant override compose config
-│       ├── grid.png                          # optional variant override grid
-│       ├── screenshot.png                    # optional variant override screenshot
-│       └── <Asset-Name>.png                  # optional assets used by the compose config
+SYSTEM/                                    # system folder, this is where the generated overlays will be stored
+├── assets/                                # assets folder, this is where json config and graphic assets will be stored
+│   ├── compose-<width>x<height>.json      # default compose config for this system
+│   ├── grid.png                           # default grid image for this system
+│   ├── screenshot.png                     # default clean screenshot image for this system
+│   └── <Variant-Name>/                    # optional variant folder
+│       ├── compose-<width>x<height>.json  # optional override compose config for this variant
+│       ├── grid.png                       # optional override grid image for this variant
+│       ├── screenshot.png                 # optional override clean screenshot image for this variant
+│       └── <Asset-Name>.png               # optional graphic assets like bezels and logos
 ```
-
-The generator expects a `Variant` folder and a matching compose config:
-
-- `SYSTEM/assets/compose-<width>x<height>.json` **required**, triggers generation for every `Variant` at the given resolution
-- `SYSTEM/assets/<Variant-Name>/` **required**, creates the overlay for that specific variant
-- `SYSTEM/assets/grid.png` optional fallback grid image, or `SYSTEM/assets/grid-<width>x<height>.png` for a resolution-specific grid override
-- `SYSTEM/assets/screenshot.png` optional fallback screenshot image, or `SYSTEM/assets/screenshot-<width>x<height>.png` for a resolution-specific preview image
-- `SYSTEM/assets/<Variant-Name>/<Asset-Name>.png` optional assets such as bezels or other layers to compose into the overlay
-- `SYSTEM/assets/<Variant-Name>/compose-<width>x<height>.json` optional, overrides the default compose config for that variant
-- `SYSTEM/assets/<Variant-Name>/grid.png` optional variant-specific fallback grid, or `SYSTEM/assets/<Variant-Name>/grid-<width>x<height>.png` for a variant-specific resolution override
-- `SYSTEM/assets/<Variant-Name>/screenshot.png` optional variant-specific fallback screenshot, or `SYSTEM/assets/<Variant-Name>/screenshot-<width>x<height>.png` for a variant-specific resolution override
 
 ### compose-&lt;width&gt;x&lt;height&gt;.json
 
