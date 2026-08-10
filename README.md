@@ -313,9 +313,9 @@ This is the "Cropped-Blanking" variant, which I suggest you use as the default. 
 
 ### Other handhelds or opererating systems
 
-These PNGs can technically be used with pretty much any 640x480 retro handheld, but they are specifically designed for how Retro Arch on Onion OS renders and scales the game. They are also designed to work with a custom filter which shifts, crops and extends the output so that it's placed in a very specific place on screen. If you have a different device or OS they will most likely be misaligned. If the offset filters are not compatible, please look for offset / crop functions or shaders for your OS and/or try to align them in a graphics software yourself by using a screenshot of the game taken on your device.
+These PNGs can technically be used with pretty much any 640x480 retro handheld, but they are specifically designed for how Retro Arch on Onion OS renders and scales the game. They are also designed to work with a custom filter which shifts, crops and extends the output so that it's placed in a very specific place on screen. If you have a different device or OS they will most likely be misaligned.
 
-You can use the generator script to create overlays for your specific handheld and OS even if it has a different resolution.
+However, if they are not compatible with your device or OS you can create finetuned custom versions yourself for any resolution. Or just make different ones at 640x480px for Onion OS and share them!
 
 ## Make your own (at any resolution!)
 
