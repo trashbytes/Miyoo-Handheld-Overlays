@@ -342,7 +342,7 @@ SYSTEM/                                      # system folder, this is where the 
 
 The real fun begins when you make use of individual assets to create your bezels.
 
-Assets should be created at their native resolution and cover either the full width or the full height of the native system resolution, depending on its native pixel aspect ratio.
+Assets should be created at their native resolution and cover either the full width or the full height of the native system resolution, depending on its native storage aspect ratio (SAR).
 
 So let's say we want to create a bezel for the GB, which has a resolution of 160x144px.
 First we have to extend the resolution to proper 4:3. As 4:3 is wider than the GB, the vertical resolution stays the same and to get the horizontal resolution we multiply the vertical one by 4:3, which is 192px (144\*4/3=192). To get the missing amount we subtract the actual horizontal resolution from it, which results in 32px (192-160=32) and because we want to have an equal amount on each side we divide by 2, which results in 16px (32/2=16) so we have to create two bezels, both 16x144px.
