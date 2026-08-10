@@ -311,19 +311,21 @@ This is the "Cropped-Blanking" variant, which I suggest you use as the default. 
 3. If neccessary configure the game as described below the preview.
 4. Don't forget to save the override for Content Directory or Game, depending on the overlay
 
-### Other 640x480 Handhelds (Generic)
+### Other handhelds or opererating systems
 
 These PNGs can technically be used with pretty much any 640x480 retro handheld, but they are specifically designed for how Retro Arch on Onion OS renders and scales the game. They are also designed to work with a custom filter which shifts, crops and extends the output so that it's placed in a very specific place on screen. If you have a different device or OS they will most likely be misaligned. If the offset filters are not compatible, please look for offset / crop functions or shaders for your OS and/or try to align them in a graphics software yourself by using a screenshot of the game taken on your device.
+
+You can use the generator script to create overlays for your specific handheld and OS even if it has a different resolution.
 
 ## Build it yourself (for other handhelds and/or resolutions)
 
 ### Generator script
 
-I've included the generator script as well as the assets. You can edit the assets to create your own bezels or edit the script and change the resolution to whatever you need, though you will have to create your own grids. Check the various `compose-<width>x<height>.json` files and tweak them accordingly. Some overlays use different scaling factors for x and y and/or offsets to shift the bezels into place.
+I've included the generator script as well as all of my assets at their native resolution. You can create your own pixel grid optimized for your target screen resolution and have the script generate a matching overlay. Or don't and have it generate a bezel only.
 
 ### Required files and folders
 
-To generate an overlay, you need both a directory with the Variant name (e.g. `Generic`) as well as a `compose-<width>x<height>.json` next to it with the resolution in the file name (e.g. `compose-750x560.json`). You can also add `grid-<width>x<height>.json` as well as `screenshot-<width>x<height>.png` to overlay a grid and to generate a preview as well, which is useful for alignment. You can override these per `Variant` by placing additional ones inside the `Variant` folder.
+To generate an overlay, you need both a directory with the Variant name (e.g. `Generic`) as well as a `compose-<width>x<height>.json` next to it with the resolution in the file name (e.g. `compose-750x560.json`). You can also add `grid-<width>x<height>.png` as well as `screenshot-<width>x<height>.png`. A grid will be placed on top of the bezel and if a screenshot is present a preview will be generated as well. You can also override these per `Variant` by placing additional ones inside the `Variant` folder.
 
 - `SYSTEM/assets/compose-<width>x<height>.json` **required**, will trigger creation for overlays for each `Variant` with a resolution of `<width>x<height>`
 - `SYSTEM/assets/grid-<width>x<height>.json` optional, grid to use for `<width>x<height>` overlay, falls back to `grid.png`
