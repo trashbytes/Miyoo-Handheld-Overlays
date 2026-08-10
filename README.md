@@ -315,6 +315,33 @@ This is the "Cropped-Blanking" variant, which I suggest you use as the default. 
 
 These PNGs can technically be used with pretty much any 640x480 retro handheld, but they are specifically designed for how Retro Arch on Onion OS renders and scales the game. They are also designed to work with a custom filter which shifts, crops and extends the output so that it's placed in a very specific place on screen. If you have a different device or OS they will most likely be misaligned. If the offset filters are not compatible, please look for offset / crop functions or shaders for your OS and/or try to align them in a graphics software yourself by using a screenshot of the game taken on your device.
 
+### Build it yourself (for other handhelds and/or resolutions)
+
+I've included the generator script as well as the assets. You can edit the assets to create your own bezels or edit the script and change the resolution to whatever you need, though you will have to create your own grids. Check the various `compose-<width>x<height>.json` files and tweak them accordingly. Some overlays use different scaling factors for x and y and/or offsets to shift the bezels into place.
+
+To generate an overlay, you need both a directory with the Variant name (e.g. `Generic`) as well as a `compose-<width>x<height>.json` next to it with the resolution in the file name (e.g. `compose-640x480.json`). You can also add `grid-<width>x<height>.json` as well as `screenshot-<width>x<height>.png` to overlay a grid and to generate a preview as well, which is useful for alignment. You can override these per `Variant` by placing additional ones inside the `Variant` folder.
+
+Files and folders:
+
+- `SYSTEM/assets/compose-<width>x<height>.json` **required**, will trigger creation for overlays for each `Variant` with a resolution of `<width>x<height>`
+- `SYSTEM/assets/grid-<width>x<height>.json` optional, grid to use for `<width>x<height>` overlay, falls back to `grid.png`
+- `SYSTEM/assets/screenshot-<width>x<height>.json` optional, screenshot used to create preview for `<width>x<height>` overlay, falls back to `screenshot.png`
+- `SYSTEM/assets/Variant/` **required**, will trigger creation for `Variant` overlay
+- `SYSTEM/assets/Variant/*.png` optional, assets like bezels to be composed onto the overlay according to each `compose-<width>x<height>.json`
+- `SYSTEM/assets/Variant/grid-<width>x<height>.json` optional, overrides default grid
+- `SYSTEM/assets/Variant/screenshot-<width>x<height>.json` optional, overrides default screenshot
+
+compose-<width>x<height>.json:
+
+This must be a valid JSON file, even if you don't have a bezel or grid. Add a key for every asset you want to place, you can use the following paramters for each one:
+
+- `prescale`: prescale the asset (for example `800%` or `300%`), default: `800%`
+- `prefilter`: choose the filter used for the prescale step (for example `Point`, `Catrom`, `Lanczos`), default: `Point`
+- `scalex`, `scaley`: scale the asset horizontally and/or vertically after prescaling to get non-square pixels (for example `1.0`, `0.8`), default: `1`
+- `filter`: choose the scaling filter used for the final resize (for example `Catrom`, `Lanczos`, `Point`), default: `Catrom`
+- `gravity`: choose where to place the asset on the canvas (for example `Center`, `NorthWest`, `South`, `East`), default: `NorthWest`
+- `left`, `right`, `up`, `down`: offset the asset relative to the chosen gravity by native pixels for finetuning, default: `0`
+
 ## Credits
 
 These overlays were inspired by the work of u/1playerinsertcoin. His Perfect_SYSTEM overlays collection is phenomenal!

@@ -1,7 +1,7 @@
 /.history
 *.psd
-assets
 backup
-update.bat
+*.bat
 source
+generated
 *.mjs

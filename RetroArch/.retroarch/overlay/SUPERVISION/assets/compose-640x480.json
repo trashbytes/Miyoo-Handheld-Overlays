@@ -1,0 +1,14 @@
+{
+  "bezel_l.png": {
+    "prescale": "300%",
+    "gravity": "West",
+    "left": 1,
+    "filter": "Point"
+  },
+  "bezel_r.png": {
+    "prescale": "300%",
+    "gravity": "East",
+    "right": 1,
+    "filter": "Point"
+  }
+}

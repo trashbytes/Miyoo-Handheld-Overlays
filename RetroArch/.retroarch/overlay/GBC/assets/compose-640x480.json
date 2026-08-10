@@ -1,0 +1,8 @@
+{
+  "bezel_l.png": {
+    "gravity": "West"
+  },
+  "bezel_r.png": {
+    "gravity": "East"
+  }
+}

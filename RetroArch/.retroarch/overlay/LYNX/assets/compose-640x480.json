@@ -1,0 +1,7 @@
+{
+  "bezel.png": {
+    "prescale": "400%",
+    "gravity": "South",
+    "filter": "Point"
+  }
+}
