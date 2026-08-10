@@ -317,19 +317,19 @@ These PNGs can technically be used with pretty much any 640x480 retro handheld, 
 
 You can use the generator script to create overlays for your specific handheld and OS even if it has a different resolution.
 
-## Build it yourself (for other handhelds and/or resolutions)
+## Make your own (at any resolution!)
 
 ### Generator script
 
-I've included the generator script as well as all of my assets at their native resolution. You can create your own pixel grid optimized for your target screen resolution and have the script generate a matching overlay. Or don't and have it generate a bezel only.
+I've included the generator script as well as all of my assets at their native resolution so you can create immersive overlays for any target resolution.
 
 ### Required files and folders
 
 ```text
 
 Minimal setup for any given system.
-This will just use the overlay-<width>x<height>.png file to create your overlay for the target resolution.
-You can create a high-res grid for the system and it will be scaled to the target resolution, though a handcrafted grid manually optimized for the target resolution may give you a better result.
+This will just use the overlay-<width>x<height>.png file to create an overlay for the target resolution.
+You can create a high-res grid for the system and it will be scaled to the target resolution, though a handcrafted grid manually optimized for the target resolution may give you better results.
 
 SYSTEM/                                      # system folder, this is where the generated overlays will be stored
 ├── assets/                                  # assets folder, this is where json config and graphic assets will be stored
@@ -337,8 +337,8 @@ SYSTEM/                                      # system folder, this is where the 
 │   ├── overlay-<width>x<height>.png         # default overlay image (like a grid for example) for this system at this target resolution
 │   ├── screenshot-<width>x<height>.png      # default clean screenshot image for this system at this target resolution
 
-The real fun begins when you add your own Variant folders and make use of individual assets to create your bezels
-Assets should be created at their native resolution and cover either the full width, the full height or both, so a left bezel for GB or GBC is 16x144px. This means iterating is super fast, as you don't have to worry about manually scaling or exporting for specific resolutions or aspect ratios.
+The real fun begins when you add your own Variant folder and make use of individual assets to create your bezels.
+Assets should be created at their native resolution and cover either the full width, the full height or both. A left bezel for GB or GBC would simply be 16x144px, prescaling, downscaling, squishing, stretching and pixel perfect placement will then be done by the generator script. This means iterating is super fast, as you don't have to worry about doing all this manually and for every resolution or aspect ratio after each change, simply delete the .cfg file or -Overlay.png an run the script again.
 You only have to setup the compose.json once and can create as many bezels at their native resolution as you want and they will be scaled and placed perfectly every time.
 A "Generic" variant directory will be created, should it not exist.
 
