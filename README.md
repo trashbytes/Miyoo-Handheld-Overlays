@@ -375,7 +375,7 @@ This must be a valid JSON file, even if you don't have a bezel or grid. Add a ke
 
 - `prescale`: prescale the asset (for example `800%` or `300%`), default: `800%`
 - `prefilter`: choose the filter used for the prescale step (for example `Point`, `Catrom`, `Lanczos`), default: `Point`
-- `scalex`, `scaley`: scale the asset horizontally and/or vertically after prescaling to get non-square pixels (for example `1.0`, `0.8`), default: `1`
+- `scalex`, `scaley`: scale the asset horizontally and/or vertically after prescaling to get non-square pixels (for example `0.875`), default: `1`
 - `filter`: choose the scaling filter used for the final resize (for example `Catrom`, `Lanczos`, `Point`), default: `Catrom`
 - `gravity`: choose where to place the asset on the canvas (for example `Center`, `NorthWest`, `South`, `East`), default: `NorthWest`
 - `left`, `right`, `up`, `down`: offset the asset relative to the chosen gravity by native pixels for finetuning, default: `0`
