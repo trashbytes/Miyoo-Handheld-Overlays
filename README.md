@@ -216,7 +216,7 @@ Menu + Start
 Quick Menu
 	On-Screen Overlay
 		Display Overlay: On
-		Overlay Preset: Immersive_POKE-Generic
+		Overlay Preset: Immersive_POKE-Generic-640x480
 Core Options
     Video Scale (Restart): 1x
 Settings
