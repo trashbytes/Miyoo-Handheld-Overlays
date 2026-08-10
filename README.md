@@ -325,15 +325,31 @@ I've included the generator script as well as all of my assets at their native r
 
 ### Required files and folders
 
-To generate an overlay, you need both a directory with the Variant name (e.g. `Generic`) as well as a `compose-<width>x<height>.json` next to it with the resolution in the file name (e.g. `compose-750x560.json`). You can also add `grid-<width>x<height>.png` as well as `screenshot-<width>x<height>.png`. A grid will be placed on top of the bezel and if a screenshot is present a preview will be generated as well. You can also override these per `Variant` by placing additional ones inside the `Variant` folder.
+A minimal setup looks like this:
 
-- `SYSTEM/assets/compose-<width>x<height>.json` **required**, will trigger creation for overlays for each `Variant` with a resolution of `<width>x<height>`
-- `SYSTEM/assets/grid-<width>x<height>.json` optional, grid to use for `<width>x<height>` overlay, falls back to `grid.png`
-- `SYSTEM/assets/screenshot-<width>x<height>.json` optional, screenshot used to create preview for `<width>x<height>` overlay, falls back to `screenshot.png`
-- `SYSTEM/assets/Variant/` **required**, will trigger creation for `Variant` overlay
-- `SYSTEM/assets/Variant/*.png` optional, assets like bezels to be composed onto the overlay according to each `compose-<width>x<height>.json`
-- `SYSTEM/assets/Variant/grid-<width>x<height>.json` optional, overrides default grid
-- `SYSTEM/assets/Variant/screenshot-<width>x<height>.json` optional, overrides default screenshot
+```text
+SYSTEM/
+├── assets/
+│   ├── compose-<width>x<height>.json         # required compose config
+│   ├── grid.png                              # optional fallback grid
+│   ├── screenshot.png                        # optional fallback screenshot
+│   └── <Variant-Name>/                       # required variant folder
+│       ├── compose-<width>x<height>.json     # optional variant override compose config
+│       ├── grid.png                          # optional variant override grid
+│       ├── screenshot.png                    # optional variant override screenshot
+│       └── <Asset-Name>.png                  # optional assets used by the compose config
+```
+
+The generator expects a `Variant` folder and a matching compose config:
+
+- `SYSTEM/assets/compose-<width>x<height>.json` **required**, triggers generation for every `Variant` at the given resolution
+- `SYSTEM/assets/<Variant-Name>/` **required**, creates the overlay for that specific variant
+- `SYSTEM/assets/grid.png` optional fallback grid image, or `SYSTEM/assets/grid-<width>x<height>.png` for a resolution-specific grid override
+- `SYSTEM/assets/screenshot.png` optional fallback screenshot image, or `SYSTEM/assets/screenshot-<width>x<height>.png` for a resolution-specific preview image
+- `SYSTEM/assets/<Variant-Name>/<Asset-Name>.png` optional assets such as bezels or other layers to compose into the overlay
+- `SYSTEM/assets/<Variant-Name>/compose-<width>x<height>.json` optional, overrides the default compose config for that variant
+- `SYSTEM/assets/<Variant-Name>/grid.png` optional variant-specific fallback grid, or `SYSTEM/assets/<Variant-Name>/grid-<width>x<height>.png` for a variant-specific resolution override
+- `SYSTEM/assets/<Variant-Name>/screenshot.png` optional variant-specific fallback screenshot, or `SYSTEM/assets/<Variant-Name>/screenshot-<width>x<height>.png` for a variant-specific resolution override
 
 ### compose-&lt;width&gt;x&lt;height&gt;.json
 
@@ -345,6 +361,18 @@ This must be a valid JSON file, even if you don't have a bezel or grid. Add a ke
 - `filter`: choose the scaling filter used for the final resize (for example `Catrom`, `Lanczos`, `Point`), default: `Catrom`
 - `gravity`: choose where to place the asset on the canvas (for example `Center`, `NorthWest`, `South`, `East`), default: `NorthWest`
 - `left`, `right`, `up`, `down`: offset the asset relative to the chosen gravity by native pixels for finetuning, default: `0`
+
+Example: `GBA/assets/compose-640x480.json`
+
+```json
+{
+  "bezel.png": {
+    "gravity": "South"
+  }
+}
+```
+
+Will place the `bezel.png` asset at the bottom of the screen.
 
 ## Credits
 
