@@ -325,14 +325,18 @@ I've included the generator script as well as all of my assets at their native r
 
 ### Required files and folders
 
-A minimal setup looks like this:
-
 ```text
+
+Minimal setup for any given system:
+
 SYSTEM/                                    # system folder, this is where the generated overlays will be stored
 ├── assets/                                # assets folder, this is where json config and graphic assets will be stored
 │   ├── compose-<width>x<height>.json      # default compose config for this system
 │   ├── grid.png                           # default grid image for this system
 │   ├── screenshot.png                     # default clean screenshot image for this system
+
+Optional variants, e.g. for specific games or different styles
+
 │   └── <Variant-Name>/                    # optional variant folder
 │       ├── compose-<width>x<height>.json  # optional override compose config for this variant
 │       ├── grid.png                       # optional override grid image for this variant
