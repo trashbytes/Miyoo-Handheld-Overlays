@@ -218,18 +218,13 @@ Quick Menu
 		Display Overlay: On
 		Overlay Preset: Immersive_POKE-Generic
 Core Options
-    Video Scale (Restart): 6x
-		LCD Filter: None
-    LCD Mode: Analog
-    LCD Contrast: 32
-    LCD Brightness: 32
-    Palette: Default
+    Video Scale (Restart): 1x
 Settings
 	Video
 		Scaling
-			Integer Scale: On
+			Integer Scale: Off
 			Keep Aspect Ratio: On
-		Image Interpolation: Bicubic
+		Image Interpolation: Nearest Neighbor
 		Video Filter: Immersive_POKE
 In-Game
 	Adjust contrast for transitions to match the bezel
