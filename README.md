@@ -335,7 +335,7 @@ SYSTEM/                                      # system folder, this is where the 
 ├── assets/                                  # assets folder, this is where json config and graphic assets will be stored
 │   ├── compose-<width>x<height>.json        # default compose config for this system at this target resolution
 │   ├── overlay-<width>x<height>.png         # default overlay image (like a grid for example) for this system at this target resolution
-│   ├── screenshot-<width>x<height>.png      # default clean screenshot image for this system at this target resolution
+│   └── screenshot-<width>x<height>.png      # default clean screenshot image for this system at this target resolution
 ```
 
 **Using custom assets:**
