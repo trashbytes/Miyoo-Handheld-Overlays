@@ -32,7 +32,7 @@ Save overrides per content directory!
 
 ### Mega Duck (MEGADUCK)
 
-![Immersive_MEGADUCK-Generic preview](RetroArch/.retroarch/overlay/MEGADUCK/Immersive_MEGADUCK-Generic-Preview.png?v=33)
+![Immersive_MEGADUCK-Generic preview](RetroArch/.retroarch/overlay/MEGADUCK/Immersive_MEGADUCK-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
@@ -50,7 +50,7 @@ Settings
 
 ### Supervision (SUPERVISION)
 
-![Immersive_SUPERVISION-Generic preview](RetroArch/.retroarch/overlay/SUPERVISION/Immersive_SUPERVISION-Generic-Preview.png?v=33)
+![Immersive_SUPERVISION-Generic preview](RetroArch/.retroarch/overlay/SUPERVISION/Immersive_SUPERVISION-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
@@ -70,7 +70,7 @@ Settings
 
 ### Game Boy (GB)
 
-![Immersive_GB-Generic preview](RetroArch/.retroarch/overlay/GB/Immersive_GB-Generic-Preview.png?v=33)
+![Immersive_GB-Generic preview](RetroArch/.retroarch/overlay/GB/Immersive_GB-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
@@ -94,7 +94,7 @@ Settings
 
 ### Game Boy Color (GBC)
 
-![Immersive_GBC-Generic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Generic-Preview.png?v=33)
+![Immersive_GBC-Generic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
@@ -112,7 +112,7 @@ Settings
 
 ### Game Gear (GG)
 
-![Immersive_GG-Generic preview](RetroArch/.retroarch/overlay/GG/Immersive_GG-Generic-Preview.png?v=33)
+![Immersive_GG-Generic preview](RetroArch/.retroarch/overlay/GG/Immersive_GG-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
@@ -129,7 +129,7 @@ Settings
 
 ### Neo Geo Pocket (NGP)
 
-![Immersive_NGP-Generic preview](RetroArch/.retroarch/overlay/NGP/Immersive_NGP-Generic-Preview.png?v=33)
+![Immersive_NGP-Generic preview](RetroArch/.retroarch/overlay/NGP/Immersive_NGP-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
@@ -147,7 +147,7 @@ Settings
 
 ### Lynx (LYNX)
 
-![Immersive_LYNX-Generic preview](RetroArch/.retroarch/overlay/LYNX/Immersive_LYNX-Generic-Preview.png?v=33)
+![Immersive_LYNX-Generic preview](RetroArch/.retroarch/overlay/LYNX/Immersive_LYNX-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
@@ -165,7 +165,7 @@ Settings
 
 ### WonderSwan (WS)
 
-![Immersive_WS-Generic preview](RetroArch/.retroarch/overlay/WS/Immersive_WS-Generic-Preview.png?v=33)
+![Immersive_WS-Generic preview](RetroArch/.retroarch/overlay/WS/Immersive_WS-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
@@ -183,7 +183,7 @@ Settings
 
 ### Game Boy Advance (GBA)
 
-![Immersive_GBA-Generic preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Generic-Preview.png?v=33)
+![Immersive_GBA-Generic preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
@@ -201,7 +201,7 @@ Settings
 
 ### Nintendo DS (NDS)
 
-![Immersive_NDS-Generic preview](Emu/NDS/resources/overlay/Immersive_NDS-Generic-Preview.png?v=33)
+![Immersive_NDS-Generic preview](Emu/NDS/resources/overlay/Immersive_NDS-Generic-Preview.png?v=34)
 
 ```text
 Menu + Start
@@ -210,7 +210,7 @@ Menu + Start
 
 ### Pokemon Mini (POKE)
 
-![Immersive_POKE-Generic preview](RetroArch/.retroarch/overlay/POKE/Immersive_POKE-Generic-Preview.png?v=33)
+![Immersive_POKE-Generic preview](RetroArch/.retroarch/overlay/POKE/Immersive_POKE-Generic-Preview.png?v=34)
 
 ```text
 Quick Menu
@@ -236,7 +236,7 @@ Save overrides per Game!
 
 ### Apotris (GBA)
 
-![Immersive_GBA-Apotris preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Apotris-Preview.png?v=33)
+![Immersive_GBA-Apotris preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Apotris-Preview.png?v=34)
 
 ```text
 Quick Menu
@@ -258,7 +258,7 @@ In-Game
 
 ### Tetris for Chromatic (GBC)
 
-![Immersive_GBC-Tetris-for-Chromatic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Tetris-for-Chromatic-Preview.png?v=33)
+![Immersive_GBC-Tetris-for-Chromatic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Tetris-for-Chromatic-Preview.png?v=34)
 
 ```text
 Quick Menu
@@ -284,7 +284,7 @@ Save overrides per Content Directory!
 
 ### Sega Master System (MS)
 
-![Immersive_MS-Cropped-Blanking preview](RetroArch/.retroarch/overlay/MS/Immersive_MS-Cropped-Blanking-Preview.png?v=33)
+![Immersive_MS-Cropped-Blanking preview](RetroArch/.retroarch/overlay/MS/Immersive_MS-Cropped-Blanking-Preview.png?v=34)
 
 ```text
 Quick Menu
