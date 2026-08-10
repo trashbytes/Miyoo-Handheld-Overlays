@@ -338,7 +338,7 @@ SYSTEM/                                      # system folder, this is where the 
 │   ├── screenshot-<width>x<height>.png      # default clean screenshot image for this system at this target resolution
 
 The real fun begins when you add your own Variant folder and make use of individual assets to create your bezels.
-Assets should be created at their native resolution and cover either the full width, the full height or both. A left bezel for GB or GBC would simply be 16x144px, prescaling, downscaling, squishing, stretching and pixel perfect placement will then be done by the generator script. This means iterating is super fast, as you don't have to worry about doing all this manually and for every resolution or aspect ratio after each change, simply delete the .cfg file or -Overlay.png an run the script again.
+Assets should be created at their native resolution and cover either the full width, the full height or both dimensions of the native system resolution. So for example a left bezel for GB or GBC would simply be 16x144px. Prescaling, downscaling, squishing, stretching and pixel perfect placement will then be done by the generator script. This means iterating is super fast, as you don't have to worry about doing all this manually and for every resolution or aspect ratio after each change, simply delete the .cfg file or -Overlay.png an run the script again.
 You only have to setup the compose.json once and can create as many bezels at their native resolution as you want and they will be scaled and placed perfectly every time.
 A "Generic" variant directory will be created, should it not exist.
 
