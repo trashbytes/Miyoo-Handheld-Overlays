@@ -141,7 +141,7 @@ Settings
 
 ![Immersive_NGP-Generic preview](RetroArch/.retroarch/overlay/NGP/Immersive_NGP-Generic-Preview.png?v=34)
 
-Final 4:3 resolution: 203x152 (21px and 22px bezels)
+Final 4:3 resolution: 203x152 (left 21px and right 22px bezel)
 
 ```text
 Quick Menu
