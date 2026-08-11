@@ -34,6 +34,8 @@ Save overrides per content directory!
 
 ![Immersive_MEGADUCK-Generic preview](RetroArch/.retroarch/overlay/MEGADUCK/Immersive_MEGADUCK-Generic-Preview.png?v=34)
 
+Final 4:3 resolution: 192x144 (16px bezels)
+
 ```text
 Quick Menu
 	On-Screen Overlay
@@ -51,6 +53,8 @@ Settings
 ### Supervision (SUPERVISION)
 
 ![Immersive_SUPERVISION-Generic preview](RetroArch/.retroarch/overlay/SUPERVISION/Immersive_SUPERVISION-Generic-Preview.png?v=34)
+
+Final 4:3 resolution: 212x160 (26px bezels)
 
 ```text
 Quick Menu
@@ -71,6 +75,8 @@ Settings
 ### Game Boy (GB)
 
 ![Immersive_GB-Generic preview](RetroArch/.retroarch/overlay/GB/Immersive_GB-Generic-Preview.png?v=34)
+
+Final 4:3 resolution: 192x144 (16px bezels)
 
 ```text
 Quick Menu
@@ -96,6 +102,8 @@ Settings
 
 ![Immersive_GBC-Generic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Generic-Preview.png?v=34)
 
+Final 4:3 resolution: 192x144 (16px bezels)
+
 ```text
 Quick Menu
 	On-Screen Overlay
@@ -114,6 +122,8 @@ Settings
 
 ![Immersive_GG-Generic preview](RetroArch/.retroarch/overlay/GG/Immersive_GG-Generic-Preview.png?v=34)
 
+Final 4:3 resolution: 160x144 (stretched, no bezels)
+
 ```text
 Quick Menu
 	On-Screen Overlay
@@ -130,6 +140,8 @@ Settings
 ### Neo Geo Pocket (NGP)
 
 ![Immersive_NGP-Generic preview](RetroArch/.retroarch/overlay/NGP/Immersive_NGP-Generic-Preview.png?v=34)
+
+Final 4:3 resolution: 203x152 (21px and 22px bezels)
 
 ```text
 Quick Menu
@@ -149,6 +161,8 @@ Settings
 
 ![Immersive_LYNX-Generic preview](RetroArch/.retroarch/overlay/LYNX/Immersive_LYNX-Generic-Preview.png?v=34)
 
+Final 4:3 resolution: 160x120 (18px bezel)
+
 ```text
 Quick Menu
 	On-Screen Overlay
@@ -166,6 +180,8 @@ Settings
 ### WonderSwan (WS)
 
 ![Immersive_WS-Generic preview](RetroArch/.retroarch/overlay/WS/Immersive_WS-Generic-Preview.png?v=34)
+
+Final 4:3 resolution: 224x168 (24px bezel)
 
 ```text
 Quick Menu
@@ -185,6 +201,8 @@ Settings
 
 ![Immersive_GBA-Generic preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Generic-Preview.png?v=34)
 
+Final 4:3 resolution: 240x180 (20px bezel)
+
 ```text
 Quick Menu
 	On-Screen Overlay
@@ -203,6 +221,8 @@ Settings
 
 ![Immersive_NDS-Generic preview](Emu/NDS/resources/overlay/Immersive_NDS-Generic-Preview.png?v=34)
 
+Final 4:3 resolution: 256x192 (no bezel)
+
 ```text
 Menu + Start
 	Overlay: Immersive_NDS-Generic.png
@@ -211,6 +231,10 @@ Menu + Start
 ### Pokemon Mini (POKE)
 
 ![Immersive_POKE-Generic preview](RetroArch/.retroarch/overlay/POKE/Immersive_POKE-Generic-Preview.png?v=34)
+
+Final 4:3 resolution: 106x80 (top 4px, left and right 5px, bottom 12px bezel)
+
+This one is special, as we don't fill the screen with the rendered image but visually extend it with the bezel to mimic the padding on original hardware. This is important because the game places sprites right at the very edges, which would be hard to parse otherwise.
 
 ```text
 Quick Menu
@@ -238,6 +262,8 @@ Save overrides per Game!
 
 ![Immersive_GBA-Apotris preview](RetroArch/.retroarch/overlay/GBA/Immersive_GBA-Apotris-Preview.png?v=34)
 
+Final 4:3 resolution: 213x160 (cropped fullscreen, no bezel)
+
 ```text
 Quick Menu
 	On-Screen Overlay
@@ -259,6 +285,8 @@ In-Game
 ### Tetris for Chromatic (GBC)
 
 ![Immersive_GBC-Tetris-for-Chromatic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Tetris-for-Chromatic-Preview.png?v=34)
+
+Final 4:3 resolution: 212x160 (26px bezels)
 
 ```text
 Quick Menu
@@ -285,6 +313,11 @@ Save overrides per Content Directory!
 ### Sega Master System (MS)
 
 ![Immersive_MS-Cropped-Blanking preview](RetroArch/.retroarch/overlay/MS/Immersive_MS-Cropped-Blanking-Preview.png?v=34)
+
+Final 4:3 resolutions:
+
+Generic: 256x219 (27px bezel)
+Cropped-Blanking: 248x212 (20px bezel)
 
 ```text
 Quick Menu
@@ -349,7 +382,7 @@ First we have to extend the resolution to proper 4:3. As 4:3 is wider than the G
 
 It's not always this simple. The NGP for example has 42.667 pixels missing horizontally to get to a proper 4:3 aspect ratio, which can neither be divided cleanly by two nor extended by using whole pixels. In this case I rounded up to 43 pixels. The left bezel is 21x152px and the right one 22x152px. Because Onion OS always scales up to full pixels, the resulting image fully covers the 640x480 screen and the bezels will perfectly slot into place as well.
 
-On widescreen systems like the GBA I like to shift the image up and then cover the bottom with a single bezel. Because 4:3 is taller than the GBA, the horizontal resolution stays the same and to get the vertical resolution we multiply the horizontal one by 3:4, which results in 180px (240\*3/4=180). To get the missing amount we subtract the actual vertial resolution from it, which results in 20px (180-160=20), so we have to create one bezel at 160x20px.
+On widescreen systems like the GBA I like to shift the image up and then cover the bottom with a single bezel. Because 4:3 is taller than the GBA, the horizontal resolution stays the same and to get the vertical resolution we multiply the horizontal one by 3:4, which results in 180px (240\*3/4=180). To get the missing amount we subtract the actual vertical resolution from it, which results in 20px (180-160=20), so we have to create one bezel at 160x20px.
 
 Prescaling, downscaling, squishing, stretching and pixel perfect placement will then be done by the generator script. This means iterating is super fast, as you don't have to worry about doing all this manually and for every resolution or aspect ratio after each change, simply delete the .cfg file or -Overlay.png an run the script again.
 
