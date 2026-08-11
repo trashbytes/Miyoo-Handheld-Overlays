@@ -234,7 +234,7 @@ Menu + Start
 
 Final 4:3 resolution: 106x80 (top 4px, left and right 5px, bottom 12px bezel)
 
-This one is special, as we don't fill the screen with the rendered image but visually extend it with the bezel to mimic the padding on original hardware. This is important because the game places sprites right at the very edges, which would be hard to parse otherwise.
+This one is special, as we don't fill the screen with the rendered image but visually extend it with the bezel to approximate the padding on original hardware. This is important because the games place sprites right at the very edges, which would be hard to parse without padding.
 
 ```text
 Quick Menu
@@ -286,7 +286,7 @@ In-Game
 
 ![Immersive_GBC-Tetris-for-Chromatic preview](RetroArch/.retroarch/overlay/GBC/Immersive_GBC-Tetris-for-Chromatic-Preview.png?v=34)
 
-Final 4:3 resolution: 212x160 (26px bezels)
+Final 4:3 resolution: 192x144 (16px bezels)
 
 ```text
 Quick Menu
